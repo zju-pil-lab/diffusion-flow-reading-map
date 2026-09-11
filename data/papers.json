@@ -1,0 +1,3068 @@
+[
+  {
+    "id": "arxiv-1503-03585",
+    "arxivId": "1503.03585",
+    "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+    "authors": [
+      "Jascha Sohl-Dickstein",
+      "Eric A. Weiss",
+      "Niru Maheswaranathan",
+      "Surya Ganguli"
+    ],
+    "year": 2015,
+    "published": "2015-03-12",
+    "venue": "ICML 2015",
+    "url": "https://arxiv.org/abs/1503.03585",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "essential",
+    "essentialOrder": 1,
+    "whyReadZh": "扩散生成模型的原始起点：从非平衡热力学理解前向加噪与反向生成。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-1806-07366",
+    "arxivId": "1806.07366",
+    "title": "Neural Ordinary Differential Equations",
+    "authors": [
+      "Ricky T. Q. Chen",
+      "Yulia Rubanova",
+      "Jesse Bettencourt",
+      "David Duvenaud"
+    ],
+    "year": 2018,
+    "published": "2018-06-19",
+    "venue": "NeurIPS 2018",
+    "url": "https://arxiv.org/abs/1806.07366",
+    "category": "foundations",
+    "tags": [
+      "foundations",
+      "ODE"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-1810-01367",
+    "arxivId": "1810.01367",
+    "title": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+    "authors": [
+      "Will Grathwohl",
+      "Ricky T. Q. Chen",
+      "Jesse Bettencourt",
+      "Ilya Sutskever",
+      "David Duvenaud"
+    ],
+    "year": 2018,
+    "published": "2018-10-02",
+    "venue": "ICLR 2019",
+    "url": "https://arxiv.org/abs/1810.01367",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-1907-05600",
+    "arxivId": "1907.05600",
+    "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+    "authors": [
+      "Yang Song",
+      "Stefano Ermon"
+    ],
+    "year": 2019,
+    "published": "2019-07-12",
+    "venue": "NeurIPS 2019",
+    "url": "https://arxiv.org/abs/1907.05600",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "essential",
+    "essentialOrder": 2,
+    "whyReadZh": "建立基于分数估计的生成建模路线，为后续 score-based diffusion 奠定目标函数。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2006-11239",
+    "arxivId": "2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "authors": [
+      "Jonathan Ho",
+      "Ajay Jain",
+      "Pieter Abbeel"
+    ],
+    "year": 2020,
+    "published": "2020-06-19",
+    "venue": "NeurIPS 2020",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "essential",
+    "essentialOrder": 3,
+    "whyReadZh": "现代扩散模型的核心基线；理解噪声预测、变分界与逐步反向采样。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2011-13456",
+    "arxivId": "2011.13456",
+    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "authors": [
+      "Yang Song",
+      "Jascha Sohl-Dickstein",
+      "Diederik P. Kingma",
+      "Abhishek Kumar",
+      "Stefano Ermon",
+      "Ben Poole"
+    ],
+    "year": 2020,
+    "published": "2020-11-26",
+    "venue": "ICLR 2021",
+    "url": "https://arxiv.org/abs/2011.13456",
+    "category": "foundations",
+    "tags": [
+      "foundations",
+      "score matching",
+      "SDE"
+    ],
+    "tier": "essential",
+    "essentialOrder": 5,
+    "whyReadZh": "用 SDE 统一多类扩散过程，并给出反向 SDE 与 probability-flow ODE 两种视角。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2101-03288",
+    "arxivId": "2101.03288",
+    "title": "How to Train Your Energy-Based Models",
+    "authors": [
+      "Yang Song",
+      "Diederik P. Kingma"
+    ],
+    "year": 2021,
+    "published": "2021-01-09",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2101.03288",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2102-09672",
+    "arxivId": "2102.09672",
+    "title": "Improved Denoising Diffusion Probabilistic Models",
+    "authors": [
+      "Alex Nichol",
+      "Prafulla Dhariwal"
+    ],
+    "year": 2021,
+    "published": "2021-02-18",
+    "venue": "ICML 2021",
+    "url": "https://arxiv.org/abs/2102.09672",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "essential",
+    "essentialOrder": 6,
+    "whyReadZh": "系统改进噪声日程、方差学习与似然，为可扩展训练提供关键经验。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2107-00630",
+    "arxivId": "2107.00630",
+    "title": "Variational Diffusion Models",
+    "authors": [
+      "Diederik P. Kingma",
+      "Tim Salimans",
+      "Ben Poole",
+      "Jonathan Ho"
+    ],
+    "year": 2021,
+    "published": "2021-07-01",
+    "venue": "NeurIPS 2021",
+    "url": "https://arxiv.org/abs/2107.00630",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2206-00364",
+    "arxivId": "2206.00364",
+    "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+    "authors": [
+      "Tero Karras",
+      "Miika Aittala",
+      "Timo Aila",
+      "Samuli Laine"
+    ],
+    "year": 2022,
+    "published": "2022-06-01",
+    "venue": "NeurIPS 2022",
+    "url": "https://arxiv.org/abs/2206.00364",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "essential",
+    "essentialOrder": 10,
+    "whyReadZh": "把网络预条件、噪声分布与采样器拆开分析，建立清晰且实用的设计空间。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2303-09556",
+    "arxivId": "2303.09556",
+    "title": "Efficient Diffusion Training via Min-SNR Weighting Strategy",
+    "authors": [
+      "Tiankai Hang",
+      "Shuyang Gu",
+      "Chen Li",
+      "Jianmin Bao",
+      "Dong Chen",
+      "Han Hu",
+      "Xin Geng",
+      "Baining Guo"
+    ],
+    "year": 2023,
+    "published": "2023-03-16",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.09556",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2305-08891",
+    "arxivId": "2305.08891",
+    "title": "Common Diffusion Noise Schedules and Sample Steps are Flawed",
+    "authors": [
+      "Shanchuan Lin",
+      "Bingchen Liu",
+      "Jiashi Li",
+      "Xiao Yang"
+    ],
+    "year": 2023,
+    "published": "2023-05-15",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2305.08891",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-08337",
+    "arxivId": "2310.08337",
+    "title": "Neural Diffusion Models",
+    "authors": [
+      "Grigory Bartosh",
+      "Dmitry Vetrov",
+      "Christian A. Naesseth"
+    ],
+    "year": 2023,
+    "published": "2023-10-12",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.08337",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-17467",
+    "arxivId": "2310.17467",
+    "title": "The statistical thermodynamics of generative diffusion models: Phase transitions, symmetry breaking and critical instability",
+    "authors": [
+      "Luca Ambrogioni"
+    ],
+    "year": 2023,
+    "published": "2023-10-26",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.17467",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2309-07867",
+    "arxivId": "2309.07867",
+    "title": "Beta Diffusion",
+    "authors": [
+      "Mingyuan Zhou",
+      "Tianqi Chen",
+      "Zhendong Wang",
+      "Huangjie Zheng"
+    ],
+    "year": 2023,
+    "published": "2023-09-14",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2309.07867",
+    "category": "objectives",
+    "tags": [
+      "objectives"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2010-02502",
+    "arxivId": "2010.02502",
+    "title": "Denoising Diffusion Implicit Models",
+    "authors": [
+      "Jiaming Song",
+      "Chenlin Meng",
+      "Stefano Ermon"
+    ],
+    "year": 2020,
+    "published": "2020-10-06",
+    "venue": "ICLR 2021",
+    "url": "https://arxiv.org/abs/2010.02502",
+    "category": "sampling",
+    "tags": [
+      "sampling"
+    ],
+    "tier": "essential",
+    "essentialOrder": 4,
+    "whyReadZh": "把 DDPM 推广为非马尔可夫过程，并引出确定性采样和速度—质量权衡。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2202-09778",
+    "arxivId": "2202.09778",
+    "title": "Pseudo Numerical Methods for Diffusion Models on Manifolds",
+    "authors": [
+      "Luping Liu",
+      "Yi Ren",
+      "Zhijie Lin",
+      "Zhou Zhao"
+    ],
+    "year": 2022,
+    "published": "2022-02-20",
+    "venue": "ICLR 2022",
+    "url": "https://arxiv.org/abs/2202.09778",
+    "category": "sampling",
+    "tags": [
+      "sampling"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2206-00927",
+    "arxivId": "2206.00927",
+    "title": "DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps",
+    "authors": [
+      "Cheng Lu",
+      "Yuhao Zhou",
+      "Fan Bao",
+      "Jianfei Chen",
+      "Chongxuan Li",
+      "Jun Zhu"
+    ],
+    "year": 2022,
+    "published": "2022-06-02",
+    "venue": "NeurIPS 2022",
+    "url": "https://arxiv.org/abs/2206.00927",
+    "category": "sampling",
+    "tags": [
+      "sampling",
+      "solver"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2211-01095",
+    "arxivId": "2211.01095",
+    "title": "DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models",
+    "authors": [
+      "Cheng Lu",
+      "Yuhao Zhou",
+      "Fan Bao",
+      "Jianfei Chen",
+      "Chongxuan Li",
+      "Jun Zhu"
+    ],
+    "year": 2022,
+    "published": "2022-11-02",
+    "venue": "NeurIPS 2022",
+    "url": "https://arxiv.org/abs/2211.01095",
+    "category": "sampling",
+    "tags": [
+      "sampling",
+      "solver"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2302-04867",
+    "arxivId": "2302.04867",
+    "title": "UniPC: A Unified Predictor-Corrector Framework for Fast Sampling of Diffusion Models",
+    "authors": [
+      "Wenliang Zhao",
+      "Lujia Bai",
+      "Yongming Rao",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "year": 2023,
+    "published": "2023-02-09",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.04867",
+    "category": "sampling",
+    "tags": [
+      "sampling"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2308-02157",
+    "arxivId": "2308.02157",
+    "title": "Improved Order Analysis and Design of Exponential Integrator for Diffusion Models Sampling",
+    "authors": [
+      "Qinsheng Zhang",
+      "Jiaming Song",
+      "Yongxin Chen"
+    ],
+    "year": 2023,
+    "published": "2023-08-04",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.02157",
+    "category": "sampling",
+    "tags": [
+      "sampling"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2308-07896",
+    "arxivId": "2308.07896",
+    "title": "SciRE-Solver: Accelerating Diffusion Models Sampling by Score-integrand Solver with Recursive Difference",
+    "authors": [
+      "Shigui Li",
+      "Wei Chen",
+      "Delu Zeng"
+    ],
+    "year": 2023,
+    "published": "2023-08-15",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.07896",
+    "category": "sampling",
+    "tags": [
+      "sampling",
+      "score matching",
+      "solver"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-07894",
+    "arxivId": "2310.07894",
+    "title": "Efficient Integrators for Diffusion Generative Models",
+    "authors": [
+      "Kushagra Pandey",
+      "Maja Rudolph",
+      "Stephan Mandt"
+    ],
+    "year": 2023,
+    "published": "2023-10-11",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.07894",
+    "category": "sampling",
+    "tags": [
+      "sampling"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-13268",
+    "arxivId": "2310.13268",
+    "title": "DPM-Solver-v3: Improved Diffusion ODE Solver with Empirical Model Statistics",
+    "authors": [
+      "Kaiwen Zheng",
+      "Cheng Lu",
+      "Jianfei Chen",
+      "Jun Zhu"
+    ],
+    "year": 2023,
+    "published": "2023-10-20",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.13268",
+    "category": "sampling",
+    "tags": [
+      "sampling",
+      "solver"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2305-16317",
+    "arxivId": "2305.16317",
+    "title": "Parallel Sampling of Diffusion Models",
+    "authors": [
+      "Andy Shih",
+      "Suneel Belkhale",
+      "Stefano Ermon",
+      "Dorsa Sadigh",
+      "Nima Anari"
+    ],
+    "year": 2023,
+    "published": "2023-05-25",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2305.16317",
+    "category": "sampling",
+    "tags": [
+      "sampling"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2105-05233",
+    "arxivId": "2105.05233",
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "authors": [
+      "Prafulla Dhariwal",
+      "Alex Nichol"
+    ],
+    "year": 2021,
+    "published": "2021-05-11",
+    "venue": "NeurIPS 2021",
+    "url": "https://arxiv.org/abs/2105.05233",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "essential",
+    "essentialOrder": 7,
+    "whyReadZh": "展示 classifier guidance 与强 U-Net 设计怎样把扩散模型推向高质量图像生成。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2207-12598",
+    "arxivId": "2207.12598",
+    "title": "Classifier-Free Diffusion Guidance",
+    "authors": [
+      "Jonathan Ho",
+      "Tim Salimans"
+    ],
+    "year": 2022,
+    "published": "2022-07-26",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2207.12598",
+    "category": "guidance",
+    "tags": [
+      "guidance"
+    ],
+    "tier": "essential",
+    "essentialOrder": 8,
+    "whyReadZh": "无需外部分类器的条件引导方法，至今仍是条件生成最重要的控制旋钮之一。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2208-01626",
+    "arxivId": "2208.01626",
+    "title": "Prompt-to-Prompt Image Editing with Cross Attention Control",
+    "authors": [
+      "Amir Hertz",
+      "Ron Mokady",
+      "Jay Tenenbaum",
+      "Kfir Aberman",
+      "Yael Pritch",
+      "Daniel Cohen-Or"
+    ],
+    "year": 2022,
+    "published": "2022-08-02",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.01626",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2208-01618",
+    "arxivId": "2208.01618",
+    "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+    "authors": [
+      "Rinon Gal",
+      "Yuval Alaluf",
+      "Yuval Atzmon",
+      "Or Patashnik",
+      "Amit H. Bermano",
+      "Gal Chechik",
+      "Daniel Cohen-Or"
+    ],
+    "year": 2022,
+    "published": "2022-08-02",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.01618",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2208-12242",
+    "arxivId": "2208.12242",
+    "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation",
+    "authors": [
+      "Nataniel Ruiz",
+      "Yuanzhen Li",
+      "Varun Jampani",
+      "Yael Pritch",
+      "Michael Rubinstein",
+      "Kfir Aberman"
+    ],
+    "year": 2022,
+    "published": "2022-08-25",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.12242",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2211-09800",
+    "arxivId": "2211.09800",
+    "title": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+    "authors": [
+      "Tim Brooks",
+      "Aleksander Holynski",
+      "Alexei A. Efros"
+    ],
+    "year": 2022,
+    "published": "2022-11-17",
+    "venue": "CVPR 2023",
+    "url": "https://arxiv.org/abs/2211.09800",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2302-05543",
+    "arxivId": "2302.05543",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "authors": [
+      "Lvmin Zhang",
+      "Anyi Rao",
+      "Maneesh Agrawala"
+    ],
+    "year": 2023,
+    "published": "2023-02-10",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.05543",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "conditional generation",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2302-08453",
+    "arxivId": "2302.08453",
+    "title": "T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models",
+    "authors": [
+      "Chong Mou",
+      "Xintao Wang",
+      "Liangbin Xie",
+      "Yanze Wu",
+      "Jian Zhang",
+      "Zhongang Qi",
+      "Ying Shan",
+      "Xiaohu Qie"
+    ],
+    "year": 2023,
+    "published": "2023-02-16",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.08453",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2308-06721",
+    "arxivId": "2308.06721",
+    "title": "IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models",
+    "authors": [
+      "Hu Ye",
+      "Jun Zhang",
+      "Sibo Liu",
+      "Xiao Han",
+      "Wei Yang"
+    ],
+    "year": 2023,
+    "published": "2023-08-13",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.06721",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-13102",
+    "arxivId": "2310.13102",
+    "title": "Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models",
+    "authors": [
+      "Gabriele Corso",
+      "Yilun Xu",
+      "Valentin de Bortoli",
+      "Regina Barzilay",
+      "Tommi Jaakkola"
+    ],
+    "year": 2023,
+    "published": "2023-10-19",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.13102",
+    "category": "guidance",
+    "tags": [
+      "guidance"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2308-16534",
+    "arxivId": "2308.16534",
+    "title": "Zero-Shot Conditioning of Score-Based Diffusion Models by Neuro-Symbolic Constraints",
+    "authors": [
+      "Davide Scassola",
+      "Sebastiano Saccani",
+      "Ginevra Carbone",
+      "Luca Bortolussi"
+    ],
+    "year": 2023,
+    "published": "2023-08-31",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.16534",
+    "category": "guidance",
+    "tags": [
+      "guidance",
+      "score matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2112-10752",
+    "arxivId": "2112.10752",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "authors": [
+      "Robin Rombach",
+      "Andreas Blattmann",
+      "Dominik Lorenz",
+      "Patrick Esser",
+      "Björn Ommer"
+    ],
+    "year": 2021,
+    "published": "2021-12-20",
+    "venue": "CVPR 2022",
+    "url": "https://arxiv.org/abs/2112.10752",
+    "category": "latent",
+    "tags": [
+      "latent",
+      "latent space",
+      "image generation"
+    ],
+    "tier": "essential",
+    "essentialOrder": 9,
+    "whyReadZh": "把扩散过程搬到压缩潜空间，奠定大规模文本到图像系统的基本架构。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2307-01952",
+    "arxivId": "2307.01952",
+    "title": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+    "authors": [
+      "Dustin Podell",
+      "Zion English",
+      "Kyle Lacey",
+      "Andreas Blattmann",
+      "Tim Dockhorn",
+      "Jonas Müller",
+      "Joe Penna",
+      "Robin Rombach"
+    ],
+    "year": 2023,
+    "published": "2023-07-04",
+    "venue": "ICLR 2024",
+    "url": "https://arxiv.org/abs/2307.01952",
+    "category": "latent",
+    "tags": [
+      "latent",
+      "latent space",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2306-00637",
+    "arxivId": "2306.00637",
+    "title": "Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models",
+    "authors": [
+      "Pablo Pernias",
+      "Dominic Rampas",
+      "Mats L. Richter",
+      "Christopher J. Pal",
+      "Marc Aubreville"
+    ],
+    "year": 2023,
+    "published": "2023-06-01",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2306.00637",
+    "category": "latent",
+    "tags": [
+      "latent",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2307-08698",
+    "arxivId": "2307.08698",
+    "title": "Flow Matching in Latent Space",
+    "authors": [
+      "Quan Dao",
+      "Hao Phung",
+      "Binh Nguyen",
+      "Anh Tran"
+    ],
+    "year": 2023,
+    "published": "2023-07-17",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2307.08698",
+    "category": "latent",
+    "tags": [
+      "latent",
+      "latent space",
+      "flow matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-19789",
+    "arxivId": "2310.19789",
+    "title": "DiffEnc: Variational Diffusion with a Learned Encoder",
+    "authors": [
+      "Beatrix M. G. Nielsen",
+      "Anders Christensen",
+      "Andrea Dittadi",
+      "Ole Winther"
+    ],
+    "year": 2023,
+    "published": "2023-10-30",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.19789",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2212-09748",
+    "arxivId": "2212.09748",
+    "title": "Scalable Diffusion Models with Transformers",
+    "authors": [
+      "William Peebles",
+      "Saining Xie"
+    ],
+    "year": 2022,
+    "published": "2022-12-19",
+    "venue": "ICCV 2023",
+    "url": "https://arxiv.org/abs/2212.09748",
+    "category": "architectures",
+    "tags": [
+      "architecture",
+      "transformer"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2301-11093",
+    "arxivId": "2301.11093",
+    "title": "Simple diffusion: End-to-end diffusion for high resolution images",
+    "authors": [
+      "Emiel Hoogeboom",
+      "Jonathan Heek",
+      "Tim Salimans"
+    ],
+    "year": 2023,
+    "published": "2023-01-26",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2301.11093",
+    "category": "architectures",
+    "tags": [
+      "architecture",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-00426",
+    "arxivId": "2310.00426",
+    "title": "PixArt-$α$: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis",
+    "authors": [
+      "Junsong Chen",
+      "Jincheng Yu",
+      "Chongjian Ge",
+      "Lewei Yao",
+      "Enze Xie",
+      "Yue Wu",
+      "Zhongdao Wang",
+      "James Kwok",
+      "Ping Luo",
+      "Huchuan Lu",
+      "Zhenguo Li"
+    ],
+    "year": 2023,
+    "published": "2023-09-30",
+    "venue": "ICLR 2024",
+    "url": "https://arxiv.org/abs/2310.00426",
+    "category": "architectures",
+    "tags": [
+      "architecture",
+      "transformer",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2306-09305",
+    "arxivId": "2306.09305",
+    "title": "Fast Training of Diffusion Models with Masked Transformers",
+    "authors": [
+      "Hongkai Zheng",
+      "Weili Nie",
+      "Arash Vahdat",
+      "Anima Anandkumar"
+    ],
+    "year": 2023,
+    "published": "2023-06-15",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2306.09305",
+    "category": "architectures",
+    "tags": [
+      "architecture",
+      "transformer"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-04750",
+    "arxivId": "2310.04750",
+    "title": "DiffNAS: Bootstrapping Diffusion Models by Prompting for Better Architectures",
+    "authors": [
+      "Wenhao Li",
+      "Xiu Su",
+      "Shan You",
+      "Fei Wang",
+      "Chen Qian",
+      "Chang Xu"
+    ],
+    "year": 2023,
+    "published": "2023-10-07",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.04750",
+    "category": "architectures",
+    "tags": [
+      "architecture"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-13545",
+    "arxivId": "2310.13545",
+    "title": "ScaleLong: Towards More Stable Training of Diffusion Model via Scaling Network Long Skip Connection",
+    "authors": [
+      "Zhongzhan Huang",
+      "Pan Zhou",
+      "Shuicheng Yan",
+      "Liang Lin"
+    ],
+    "year": 2023,
+    "published": "2023-10-20",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.13545",
+    "category": "architectures",
+    "tags": [
+      "architecture"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2403-04692",
+    "arxivId": "2403.04692",
+    "title": "PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
+    "authors": [
+      "Junsong Chen",
+      "Chongjian Ge",
+      "Enze Xie",
+      "Yue Wu",
+      "Lewei Yao",
+      "Xiaozhe Ren",
+      "Zhongdao Wang",
+      "Ping Luo",
+      "Huchuan Lu",
+      "Zhenguo Li"
+    ],
+    "year": 2024,
+    "published": "2024-03-07",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2403.04692",
+    "category": "architectures",
+    "tags": [
+      "architecture",
+      "transformer",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2401-08740",
+    "arxivId": "2401.08740",
+    "title": "SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers",
+    "authors": [
+      "Nanye Ma",
+      "Mark Goldstein",
+      "Michael S. Albergo",
+      "Nicholas M. Boffi",
+      "Eric Vanden-Eijnden",
+      "Saining Xie"
+    ],
+    "year": 2024,
+    "published": "2024-01-16",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2401.08740",
+    "category": "architectures",
+    "tags": [
+      "architecture",
+      "transformer"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2202-00512",
+    "arxivId": "2202.00512",
+    "title": "Progressive Distillation for Fast Sampling of Diffusion Models",
+    "authors": [
+      "Tim Salimans",
+      "Jonathan Ho"
+    ],
+    "year": 2022,
+    "published": "2022-02-01",
+    "venue": "ICLR 2022",
+    "url": "https://arxiv.org/abs/2202.00512",
+    "category": "distillation",
+    "tags": [
+      "distillation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2303-01469",
+    "arxivId": "2303.01469",
+    "title": "Consistency Models",
+    "authors": [
+      "Yang Song",
+      "Prafulla Dhariwal",
+      "Mark Chen",
+      "Ilya Sutskever"
+    ],
+    "year": 2023,
+    "published": "2023-03-02",
+    "venue": "ICML 2023",
+    "url": "https://arxiv.org/abs/2303.01469",
+    "category": "distillation",
+    "tags": [
+      "distillation",
+      "consistency"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-14189",
+    "arxivId": "2310.14189",
+    "title": "Improved Techniques for Training Consistency Models",
+    "authors": [
+      "Yang Song",
+      "Prafulla Dhariwal"
+    ],
+    "year": 2023,
+    "published": "2023-10-22",
+    "venue": "ICLR 2024",
+    "url": "https://arxiv.org/abs/2310.14189",
+    "category": "distillation",
+    "tags": [
+      "distillation",
+      "consistency"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-04378",
+    "arxivId": "2310.04378",
+    "title": "Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference",
+    "authors": [
+      "Simian Luo",
+      "Yiqin Tan",
+      "Longbo Huang",
+      "Jian Li",
+      "Hang Zhao"
+    ],
+    "year": 2023,
+    "published": "2023-10-06",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.04378",
+    "category": "distillation",
+    "tags": [
+      "distillation",
+      "latent space",
+      "consistency",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-02279",
+    "arxivId": "2310.02279",
+    "title": "Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion",
+    "authors": [
+      "Dongjun Kim",
+      "Chieh-Hsin Lai",
+      "Wei-Hsiang Liao",
+      "Naoki Murata",
+      "Yuhta Takida",
+      "Toshimitsu Uesaka",
+      "Yutong He",
+      "Yuki Mitsufuji",
+      "Stefano Ermon"
+    ],
+    "year": 2023,
+    "published": "2023-10-01",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.02279",
+    "category": "distillation",
+    "tags": [
+      "distillation",
+      "consistency"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2309-06380",
+    "arxivId": "2309.06380",
+    "title": "InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation",
+    "authors": [
+      "Xingchao Liu",
+      "Xiwen Zhang",
+      "Jianzhu Ma",
+      "Jian Peng",
+      "Qiang Liu"
+    ],
+    "year": 2023,
+    "published": "2023-09-12",
+    "venue": "ICLR 2024",
+    "url": "https://arxiv.org/abs/2309.06380",
+    "category": "distillation",
+    "tags": [
+      "distillation",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2311-18828",
+    "arxivId": "2311.18828",
+    "title": "One-step Diffusion with Distribution Matching Distillation",
+    "authors": [
+      "Tianwei Yin",
+      "Michaël Gharbi",
+      "Richard Zhang",
+      "Eli Shechtman",
+      "Fredo Durand",
+      "William T. Freeman",
+      "Taesung Park"
+    ],
+    "year": 2023,
+    "published": "2023-11-30",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2311.18828",
+    "category": "distillation",
+    "tags": [
+      "distillation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2403-12015",
+    "arxivId": "2403.12015",
+    "title": "Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation",
+    "authors": [
+      "Axel Sauer",
+      "Frederic Boesel",
+      "Tim Dockhorn",
+      "Andreas Blattmann",
+      "Patrick Esser",
+      "Robin Rombach"
+    ],
+    "year": 2024,
+    "published": "2024-03-18",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2403.12015",
+    "category": "distillation",
+    "tags": [
+      "distillation",
+      "latent space",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2505-13447",
+    "arxivId": "2505.13447",
+    "title": "Mean Flows for One-step Generative Modeling",
+    "authors": [
+      "Zhengyang Geng",
+      "Mingyang Deng",
+      "Xingjian Bai",
+      "J. Zico Kolter",
+      "Kaiming He"
+    ],
+    "year": 2025,
+    "published": "2025-05-19",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2505.13447",
+    "category": "distillation",
+    "tags": [
+      "distillation"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2210-02747",
+    "arxivId": "2210.02747",
+    "title": "Flow Matching for Generative Modeling",
+    "authors": [
+      "Yaron Lipman",
+      "Ricky T. Q. Chen",
+      "Heli Ben-Hamu",
+      "Maximilian Nickel",
+      "Matt Le"
+    ],
+    "year": 2022,
+    "published": "2022-10-06",
+    "venue": "ICLR 2023",
+    "url": "https://arxiv.org/abs/2210.02747",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow matching"
+    ],
+    "tier": "essential",
+    "essentialOrder": 11,
+    "whyReadZh": "以回归条件速度场训练连续归一化流，给出 diffusion paths 与 OT paths 的统一入口。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2209-03003",
+    "arxivId": "2209.03003",
+    "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+    "authors": [
+      "Xingchao Liu",
+      "Chengyue Gong",
+      "Qiang Liu"
+    ],
+    "year": 2022,
+    "published": "2022-09-07",
+    "venue": "ICLR 2023",
+    "url": "https://arxiv.org/abs/2209.03003",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "rectified flow"
+    ],
+    "tier": "essential",
+    "essentialOrder": 12,
+    "whyReadZh": "通过 rectification 与 reflow 学习更直的传输轨迹，连接 flow matching 与少步生成。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching",
+      "essential-path"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2209-14577",
+    "arxivId": "2209.14577",
+    "title": "Rectified Flow: A Marginal Preserving Approach to Optimal Transport",
+    "authors": [
+      "Qiang Liu"
+    ],
+    "year": 2022,
+    "published": "2022-09-29",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.14577",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "rectified flow",
+      "optimal transport"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2303-08797",
+    "arxivId": "2303.08797",
+    "title": "Stochastic Interpolants: A Unifying Framework for Flows and Diffusions",
+    "authors": [
+      "Michael S. Albergo",
+      "Nicholas M. Boffi",
+      "Eric Vanden-Eijnden"
+    ],
+    "year": 2023,
+    "published": "2023-03-15",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2303.08797",
+    "category": "flow",
+    "tags": [
+      "flow"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2302-00482",
+    "arxivId": "2302.00482",
+    "title": "Improving and generalizing flow-based generative models with minibatch optimal transport",
+    "authors": [
+      "Alexander Tong",
+      "Kilian Fatras",
+      "Nikolay Malkin",
+      "Guillaume Huguet",
+      "Yanlei Zhang",
+      "Jarrid Rector-Brooks",
+      "Guy Wolf",
+      "Yoshua Bengio"
+    ],
+    "year": 2023,
+    "published": "2023-02-01",
+    "venue": "TMLR 2023",
+    "url": "https://arxiv.org/abs/2302.00482",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "optimal transport"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2307-03672",
+    "arxivId": "2307.03672",
+    "title": "Simulation-free Schrödinger bridges via score and flow matching",
+    "authors": [
+      "Alexander Tong",
+      "Nikolay Malkin",
+      "Kilian Fatras",
+      "Lazar Atanackovic",
+      "Yanlei Zhang",
+      "Guillaume Huguet",
+      "Guy Wolf",
+      "Yoshua Bengio"
+    ],
+    "year": 2023,
+    "published": "2023-07-07",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2307.03672",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "score matching",
+      "flow matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-03695",
+    "arxivId": "2310.03695",
+    "title": "Multimarginal generative modeling with stochastic interpolants",
+    "authors": [
+      "Michael S. Albergo",
+      "Nicholas M. Boffi",
+      "Michael Lindsey",
+      "Eric Vanden-Eijnden"
+    ],
+    "year": 2023,
+    "published": "2023-10-05",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.03695",
+    "category": "flow",
+    "tags": [
+      "flow"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-03725",
+    "arxivId": "2310.03725",
+    "title": "Stochastic interpolants with data-dependent couplings",
+    "authors": [
+      "Michael S. Albergo",
+      "Mark Goldstein",
+      "Nicholas M. Boffi",
+      "Rajesh Ranganath",
+      "Eric Vanden-Eijnden"
+    ],
+    "year": 2023,
+    "published": "2023-10-05",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.03725",
+    "category": "flow",
+    "tags": [
+      "flow"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2403-03206",
+    "arxivId": "2403.03206",
+    "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+    "authors": [
+      "Patrick Esser",
+      "Sumith Kulal",
+      "Andreas Blattmann",
+      "Rahim Entezari",
+      "Jonas Müller",
+      "Harry Saini",
+      "Yam Levi",
+      "Dominik Lorenz",
+      "Axel Sauer",
+      "Frederic Boesel",
+      "Dustin Podell",
+      "Tim Dockhorn",
+      "Zion English",
+      "Kyle Lacey",
+      "Alex Goodwin",
+      "Yannik Marek",
+      "Robin Rombach"
+    ],
+    "year": 2024,
+    "published": "2024-03-05",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2403.03206",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "transformer",
+      "rectified flow",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2405-20320",
+    "arxivId": "2405.20320",
+    "title": "Improving the Training of Rectified Flows",
+    "authors": [
+      "Sangyun Lee",
+      "Zinan Lin",
+      "Giulia Fanti"
+    ],
+    "year": 2024,
+    "published": "2024-05-30",
+    "venue": "NeurIPS 2024",
+    "url": "https://arxiv.org/abs/2405.20320",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "rectified flow"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2410-07303",
+    "arxivId": "2410.07303",
+    "title": "Rectified Diffusion: Straightness Is Not Your Need in Rectified Flow",
+    "authors": [
+      "Fu-Yun Wang",
+      "Ling Yang",
+      "Zhaoyang Huang",
+      "Mengdi Wang",
+      "Hongsheng Li"
+    ],
+    "year": 2024,
+    "published": "2024-10-09",
+    "venue": "ICLR 2025",
+    "url": "https://arxiv.org/abs/2410.07303",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "rectified flow"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2412-07517",
+    "arxivId": "2412.07517",
+    "title": "FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing",
+    "authors": [
+      "Yingying Deng",
+      "Xiangyu He",
+      "Changwang Mei",
+      "Peisong Wang",
+      "Fan Tang"
+    ],
+    "year": 2024,
+    "published": "2024-12-10",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2412.07517",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "rectified flow",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2507-22270",
+    "arxivId": "2507.22270",
+    "title": "Weighted Conditional Flow Matching",
+    "authors": [
+      "Sergio Calvo-Ordonez",
+      "Matthieu Meunier",
+      "Alvaro Cartea",
+      "Christoph Reisinger",
+      "Yarin Gal",
+      "Jose Miguel Hernandez-Lobato"
+    ],
+    "year": 2025,
+    "published": "2025-07-29",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2507.22270",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "conditional generation",
+      "flow matching"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2506-05350",
+    "arxivId": "2506.05350",
+    "title": "Contrastive Flow Matching",
+    "authors": [
+      "George Stoica",
+      "Vivek Ramanujan",
+      "Xiang Fan",
+      "Ali Farhadi",
+      "Ranjay Krishna",
+      "Judy Hoffman"
+    ],
+    "year": 2025,
+    "published": "2025-06-05",
+    "venue": "ICCV 2025",
+    "url": "https://arxiv.org/abs/2506.05350",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow matching"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2302-03660",
+    "arxivId": "2302.03660",
+    "title": "Flow Matching on General Geometries",
+    "authors": [
+      "Ricky T. Q. Chen",
+      "Yaron Lipman"
+    ],
+    "year": 2023,
+    "published": "2023-02-07",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.03660",
+    "category": "geometry",
+    "tags": [
+      "geometry",
+      "flow matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2407-15595",
+    "arxivId": "2407.15595",
+    "title": "Discrete Flow Matching",
+    "authors": [
+      "Itai Gat",
+      "Tal Remez",
+      "Neta Shaul",
+      "Felix Kreuk",
+      "Ricky T. Q. Chen",
+      "Gabriel Synnaeve",
+      "Yossi Adi",
+      "Yaron Lipman"
+    ],
+    "year": 2024,
+    "published": "2024-07-22",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2407.15595",
+    "category": "geometry",
+    "tags": [
+      "geometry",
+      "flow matching",
+      "discrete data"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2312-07168",
+    "arxivId": "2312.07168",
+    "title": "Equivariant Flow Matching with Hybrid Probability Transport",
+    "authors": [
+      "Yuxuan Song",
+      "Jingjing Gong",
+      "Minkai Xu",
+      "Ziyao Cao",
+      "Yanyan Lan",
+      "Stefano Ermon",
+      "Hao Zhou",
+      "Wei-Ying Ma"
+    ],
+    "year": 2023,
+    "published": "2023-12-12",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2312.07168",
+    "category": "geometry",
+    "tags": [
+      "geometry",
+      "flow matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2507-15897",
+    "arxivId": "2507.15897",
+    "title": "ReDi: Rectified Discrete Flow",
+    "authors": [
+      "Jaehoon Yoo",
+      "Wonjung Kim",
+      "Seunghoon Hong"
+    ],
+    "year": 2025,
+    "published": "2025-07-21",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2507.15897",
+    "category": "geometry",
+    "tags": [
+      "geometry",
+      "rectified flow",
+      "discrete data"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2009-09761",
+    "arxivId": "2009.09761",
+    "title": "DiffWave: A Versatile Diffusion Model for Audio Synthesis",
+    "authors": [
+      "Zhifeng Kong",
+      "Wei Ping",
+      "Jiaji Huang",
+      "Kexin Zhao",
+      "Bryan Catanzaro"
+    ],
+    "year": 2020,
+    "published": "2020-09-21",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2009.09761",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "audio"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2105-06337",
+    "arxivId": "2105.06337",
+    "title": "Grad-TTS: A Diffusion Probabilistic Model for Text-to-Speech",
+    "authors": [
+      "Vadim Popov",
+      "Ivan Vovk",
+      "Vladimir Gogoryan",
+      "Tasnima Sadekova",
+      "Mikhail Kudinov"
+    ],
+    "year": 2021,
+    "published": "2021-05-13",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2105.06337",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "speech"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2309-03199",
+    "arxivId": "2309.03199",
+    "title": "Matcha-TTS: A fast TTS architecture with conditional flow matching",
+    "authors": [
+      "Shivam Mehta",
+      "Ruibo Tu",
+      "Jonas Beskow",
+      "Éva Székely",
+      "Gustav Eje Henter"
+    ],
+    "year": 2023,
+    "published": "2023-09-06",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2309.03199",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "conditional generation",
+      "flow matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2111-05826",
+    "arxivId": "2111.05826",
+    "title": "Palette: Image-to-Image Diffusion Models",
+    "authors": [
+      "Chitwan Saharia",
+      "William Chan",
+      "Huiwen Chang",
+      "Chris A. Lee",
+      "Jonathan Ho",
+      "Tim Salimans",
+      "David J. Fleet",
+      "Mohammad Norouzi"
+    ],
+    "year": 2021,
+    "published": "2021-11-10",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2111.05826",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2201-09865",
+    "arxivId": "2201.09865",
+    "title": "RePaint: Inpainting using Denoising Diffusion Probabilistic Models",
+    "authors": [
+      "Andreas Lugmayr",
+      "Martin Danelljan",
+      "Andres Romero",
+      "Fisher Yu",
+      "Radu Timofte",
+      "Luc Van Gool"
+    ],
+    "year": 2022,
+    "published": "2022-01-24",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2201.09865",
+    "category": "applications",
+    "tags": [
+      "applications"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2205-11487",
+    "arxivId": "2205.11487",
+    "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+    "authors": [
+      "Chitwan Saharia",
+      "William Chan",
+      "Saurabh Saxena",
+      "Lala Li",
+      "Jay Whang",
+      "Emily Denton",
+      "Seyed Kamyar Seyed Ghasemipour",
+      "Burcu Karagol Ayan",
+      "S. Sara Mahdavi",
+      "Rapha Gontijo Lopes",
+      "Tim Salimans",
+      "Jonathan Ho",
+      "David J Fleet",
+      "Mohammad Norouzi"
+    ],
+    "year": 2022,
+    "published": "2022-05-23",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2205.11487",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "image generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2209-14988",
+    "arxivId": "2209.14988",
+    "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+    "authors": [
+      "Ben Poole",
+      "Ajay Jain",
+      "Jonathan T. Barron",
+      "Ben Mildenhall"
+    ],
+    "year": 2022,
+    "published": "2022-09-29",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.14988",
+    "category": "applications",
+    "tags": [
+      "applications"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2203-02923",
+    "arxivId": "2203.02923",
+    "title": "GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation",
+    "authors": [
+      "Minkai Xu",
+      "Lantao Yu",
+      "Yang Song",
+      "Chence Shi",
+      "Stefano Ermon",
+      "Jian Tang"
+    ],
+    "year": 2022,
+    "published": "2022-03-06",
+    "venue": "ICLR 2022",
+    "url": "https://arxiv.org/abs/2203.02923",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "molecules"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2210-01776",
+    "arxivId": "2210.01776",
+    "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+    "authors": [
+      "Gabriele Corso",
+      "Hannes Stärk",
+      "Bowen Jing",
+      "Regina Barzilay",
+      "Tommi Jaakkola"
+    ],
+    "year": 2022,
+    "published": "2022-10-04",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2210.01776",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "molecules"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2303-04137",
+    "arxivId": "2303.04137",
+    "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+    "authors": [
+      "Cheng Chi",
+      "Zhenjia Xu",
+      "Siyuan Feng",
+      "Eric Cousineau",
+      "Yilun Du",
+      "Benjamin Burchfiel",
+      "Russ Tedrake",
+      "Shuran Song"
+    ],
+    "year": 2023,
+    "published": "2023-03-07",
+    "venue": "RSS 2023",
+    "url": "https://arxiv.org/abs/2303.04137",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "robotics"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2101-12072",
+    "arxivId": "2101.12072",
+    "title": "Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting",
+    "authors": [
+      "Kashif Rasul",
+      "Calvin Seward",
+      "Ingmar Schuster",
+      "Roland Vollgraf"
+    ],
+    "year": 2021,
+    "published": "2021-01-28",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2101.12072",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "time series"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2107-03502",
+    "arxivId": "2107.03502",
+    "title": "CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation",
+    "authors": [
+      "Yusuke Tashiro",
+      "Jiaming Song",
+      "Yang Song",
+      "Stefano Ermon"
+    ],
+    "year": 2021,
+    "published": "2021-07-07",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2107.03502",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "score matching",
+      "conditional generation",
+      "time series"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2411-17196",
+    "arxivId": "2411.17196",
+    "title": "P2DFlow: A Protein Ensemble Generative Model with SE(3) Flow Matching",
+    "authors": [
+      "Yaowei Jin",
+      "Qi Huang",
+      "Ziyang Song",
+      "Mingyue Zheng",
+      "Dan Teng",
+      "Qian Shi"
+    ],
+    "year": 2024,
+    "published": "2024-11-26",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2411.17196",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "flow matching",
+      "protein"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2508-18949",
+    "arxivId": "2508.18949",
+    "title": "Energy-Based Flow Matching for Generating 3D Molecular Structure",
+    "authors": [
+      "Wenyin Zhou",
+      "Christopher Iliffe Sprague",
+      "Vsevolod Viliuga",
+      "Matteo Tadiello",
+      "Arne Elofsson",
+      "Hossein Azizpour"
+    ],
+    "year": 2025,
+    "published": "2025-08-26",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2508.18949",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "flow matching",
+      "molecules"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2507-05503",
+    "arxivId": "2507.05503",
+    "title": "MolFORM: Multi-modal Flow Matching for Structure-Based Drug Design",
+    "authors": [
+      "Jie Huang",
+      "Daiheng Zhang"
+    ],
+    "year": 2025,
+    "published": "2025-07-07",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2507.05503",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "flow matching"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2512-23278",
+    "arxivId": "2512.23278",
+    "title": "Flow2GAN: Hybrid Flow Matching and GAN with Multi-Resolution Network for Few-step High-Fidelity Audio Generation",
+    "authors": [
+      "Zengwei Yao",
+      "Wei Kang",
+      "Han Zhu",
+      "Liyong Guo",
+      "Lingxuan Ye",
+      "Fangjun Kuang",
+      "Weiji Zhuang",
+      "Zhaoqing Li",
+      "Zhifeng Han",
+      "Long Lin",
+      "Daniel Povey"
+    ],
+    "year": 2025,
+    "published": "2025-12-29",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2512.23278",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "flow matching",
+      "audio"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2601-12950",
+    "arxivId": "2601.12950",
+    "title": "ImmersiveFlow: Stereo-to-7.1.4 spatial audio generation with flow matching",
+    "authors": [
+      "Zining Liang",
+      "Runbang Wang",
+      "Xuzhou Ye",
+      "Qiuqiang Kong"
+    ],
+    "year": 2026,
+    "published": "2026-01-19",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2601.12950",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "flow matching",
+      "audio"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2606-11243",
+    "arxivId": "2606.11243",
+    "title": "ProHiFlo: Hierarchical Flow Matching with Functional Guidance for De Novo Protein Generation",
+    "authors": [
+      "Chuanzhen Wang",
+      "Meade Cleti",
+      "Pete Jano"
+    ],
+    "year": 2026,
+    "published": "2026-06-03",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2606.11243",
+    "category": "applications",
+    "tags": [
+      "applications",
+      "guidance",
+      "flow matching",
+      "protein"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-flow-matching"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2305-19693",
+    "arxivId": "2305.19693",
+    "title": "Spontaneous Symmetry Breaking in Generative Diffusion Models",
+    "authors": [
+      "Gabriel Raya",
+      "Luca Ambrogioni"
+    ],
+    "year": 2023,
+    "published": "2023-05-31",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2305.19693",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2305-19947",
+    "arxivId": "2305.19947",
+    "title": "A Geometric Perspective on Diffusion Models",
+    "authors": [
+      "Defang Chen",
+      "Zhenyu Zhou",
+      "Jian-Ping Mei",
+      "Chunhua Shen",
+      "Chun Chen",
+      "Can Wang"
+    ],
+    "year": 2023,
+    "published": "2023-05-31",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2305.19947",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2305-14712",
+    "arxivId": "2305.14712",
+    "title": "On the Generalization of Diffusion Model",
+    "authors": [
+      "Mingyang Yi",
+      "Jiacheng Sun",
+      "Zhenguo Li"
+    ],
+    "year": 2023,
+    "published": "2023-05-24",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2305.14712",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-02664",
+    "arxivId": "2310.02664",
+    "title": "On Memorization in Diffusion Models",
+    "authors": [
+      "Xiangming Gu",
+      "Chao Du",
+      "Tianyu Pang",
+      "Chongxuan Li",
+      "Min Lin",
+      "Ye Wang"
+    ],
+    "year": 2023,
+    "published": "2023-10-04",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.02664",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2309-16750",
+    "arxivId": "2309.16750",
+    "title": "Memory in Plain Sight: Surveying the Uncanny Resemblances of Associative Memories and Diffusion Models",
+    "authors": [
+      "Benjamin Hoover",
+      "Hendrik Strobelt",
+      "Dmitry Krotov",
+      "Judy Hoffman",
+      "Zsolt Kira",
+      "Duen Horng Chau"
+    ],
+    "year": 2023,
+    "published": "2023-09-28",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2309.16750",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2208-11970",
+    "arxivId": "2208.11970",
+    "title": "Understanding Diffusion Models: A Unified Perspective",
+    "authors": [
+      "Calvin Luo"
+    ],
+    "year": 2022,
+    "published": "2022-08-25",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2208.11970",
+    "category": "surveys",
+    "tags": [
+      "surveys"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2308-13142",
+    "arxivId": "2308.13142",
+    "title": "A Survey of Diffusion Based Image Generation Models: Issues and Their Solutions",
+    "authors": [
+      "Tianyi Zhang",
+      "Zheng Wang",
+      "Jing Huang",
+      "Mohiuddin Muhammad Tasnim",
+      "Wei Shi"
+    ],
+    "year": 2023,
+    "published": "2023-08-25",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2308.13142",
+    "category": "surveys",
+    "tags": [
+      "surveys",
+      "image generation"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2209-00796",
+    "arxivId": "2209.00796",
+    "title": "Diffusion Models: A Comprehensive Survey of Methods and Applications",
+    "authors": [
+      "Ling Yang",
+      "Zhilong Zhang",
+      "Yang Song",
+      "Shenda Hong",
+      "Runsheng Xu",
+      "Yue Zhao",
+      "Wentao Zhang",
+      "Bin Cui",
+      "Ming-Hsuan Yang"
+    ],
+    "year": 2022,
+    "published": "2022-09-02",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2209.00796",
+    "category": "surveys",
+    "tags": [
+      "surveys"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-07204",
+    "arxivId": "2310.07204",
+    "title": "State of the Art on Diffusion Models for Visual Computing",
+    "authors": [
+      "Ryan Po",
+      "Wang Yifan",
+      "Vladislav Golyanik",
+      "Kfir Aberman",
+      "Jonathan T. Barron",
+      "Amit H. Bermano",
+      "Eric Ryan Chan",
+      "Tali Dekel",
+      "Aleksander Holynski",
+      "Angjoo Kanazawa",
+      "C. Karen Liu",
+      "Lingjie Liu",
+      "Ben Mildenhall",
+      "Matthias Nießner",
+      "Björn Ommer",
+      "Christian Theobalt",
+      "Peter Wonka",
+      "Gordon Wetzstein"
+    ],
+    "year": 2023,
+    "published": "2023-10-11",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.07204",
+    "category": "surveys",
+    "tags": [
+      "surveys"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2310-10647",
+    "arxivId": "2310.10647",
+    "title": "A Survey on Video Diffusion Models",
+    "authors": [
+      "Zhen Xing",
+      "Qijun Feng",
+      "Haoran Chen",
+      "Qi Dai",
+      "Han Hu",
+      "Hang Xu",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang"
+    ],
+    "year": 2023,
+    "published": "2023-10-16",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2310.10647",
+    "category": "surveys",
+    "tags": [
+      "surveys",
+      "video"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2412-06264",
+    "arxivId": "2412.06264",
+    "title": "Flow Matching Guide and Code",
+    "authors": [
+      "Yaron Lipman",
+      "Marton Havasi",
+      "Peter Holderrieth",
+      "Neta Shaul",
+      "Matt Le",
+      "Brian Karrer",
+      "Ricky T. Q. Chen",
+      "David Lopez-Paz",
+      "Heli Ben-Hamu",
+      "Itai Gat"
+    ],
+    "year": 2024,
+    "published": "2024-12-09",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2412.06264",
+    "category": "surveys",
+    "tags": [
+      "surveys",
+      "flow matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "arxiv-primary",
+      "awesome-diffusion-models"
+    ],
+    "lastVerified": "2026-09-12"
+  }
+]
