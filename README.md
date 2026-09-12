@@ -4,7 +4,7 @@
 
 在线阅读：[Diffusion + Flow Reading Map](https://zju-pil-lab.github.io/diffusion-flow-reading-map/)
 
-项目以研究问题和方法类别为主线，以论文首次公开时间为排序维度。首版收录 105 篇经一手页面核对的论文，覆盖 diffusion、score/SDE、guidance、latent diffusion、sampling、distillation、Flow Matching、Rectified Flow、结构空间与跨领域应用。
+项目以研究问题和方法类别为主线，以论文首次公开时间为排序维度。首版收录 105 篇经一手页面核对的论文，覆盖 diffusion、score/SDE、guidance、latent diffusion、sampling、distillation、Flow Matching、Rectified Flow、结构空间与跨领域应用。学习资源区另收录专著、博客、课程、教程与代码入口，不计入论文数量。
 
 ## 设计原则
 
@@ -14,6 +14,10 @@
 - **一手元数据**：标题、作者、首次公开日期和链接优先以 arXiv 或正式 proceedings 为准。
 - **自动发现，人工收录**：定时任务只创建候选 issue，最终分类与阅读层级由维护者确认。
 - **中文导读，英文标题**：便于实验室教学、检索和引用。
+
+## 学习资源
+
+学习资源与论文库分开维护，并按 `Book`、`Blog`、`Course`、`Tutorial` 和 `Code & Lab` 五类组织。推荐路线分为快速入门、系统学习与理论进阶；书籍包括 *The Principles of Diffusion Models* 与 *Generative AI and Stochastic Thermodynamics: A Tale of Free Energies*。
 
 ## 本地运行
 
@@ -36,9 +40,10 @@ GITHUB_PAGES=true PAGES_BASE_PATH=/diffusion-flow-reading-map npm run build:page
 ## 数据与更新
 
 - `data/papers.json`：网站唯一论文数据源。
+- `data/resources.json`：书籍、博客、课程、教程与代码资源数据源。
 - `scripts/build_seed_library.py`：用 arXiv Atom API 重建首版元数据；分类、tier 与中文导读为独立编辑数据。
 - `scripts/discover_arxiv.py`：每周搜索新候选，不会自动发布论文。
-- `scripts/validate-data.mjs`：检查 schema、重复项、类别和 12 篇核心路径。
+- `scripts/validate-data.mjs`：检查论文与学习资源的 schema、重复项、类别，以及 12 篇核心路径。
 
 更新流程：每周 workflow 生成候选 issue → 维护者核对一手记录与主分类 → PR 通过数据、lint 和构建检查 → GitHub Pages 自动发布。
 

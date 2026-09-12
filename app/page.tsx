@@ -1,4 +1,5 @@
 import PaperExplorer from '@/components/paper-explorer';
+import ResourceExplorer from '@/components/resource-explorer';
 import {
   categories,
   categoryById,
@@ -7,6 +8,7 @@ import {
   latestPapers,
   papers,
 } from '@/lib/papers';
+import { resources } from '@/lib/resources';
 
 const coreCategoryIds = [
   'foundations', 'objectives', 'sampling', 'guidance',
@@ -27,6 +29,7 @@ export default function Home() {
           <a href="#start">核心路径</a>
           <a href="#map">方法地图</a>
           <a href="#library">论文库</a>
+          <a href="#resources">学习资源</a>
           <a href="#updates">更新机制</a>
         </div>
         <a
@@ -159,6 +162,36 @@ export default function Home() {
           <p>按标题、作者或标签搜索；按 12 个研究方向、阅读层级与首次公开时间筛选。每条记录均链接到论文一手页面。</p>
         </div>
         <PaperExplorer papers={papers} />
+      </section>
+
+      <section className="resource-section" id="resources">
+        <div className="resource-heading">
+          <div>
+            <p className="eyebrow"><span /> LEARNING RESOURCES</p>
+            <h2>学习资源</h2>
+          </div>
+          <p>专著用于系统建构，课程与教程帮助补齐推导，博客建立直觉，代码用于复现。资源与论文分别统计，并优先链接作者、课程或出版社的一手页面。</p>
+        </div>
+
+        <div className="learning-routes" aria-label="推荐学习路线">
+          <article>
+            <span>01 / QUICK START</span>
+            <h3>快速入门</h3>
+            <p>Lilian Weng → MIT OCW → Annotated Diffusion</p>
+          </article>
+          <article>
+            <span>02 / SYSTEMATIC</span>
+            <h3>系统学习</h3>
+            <p>MIT 6.S184 → The Principles of Diffusion Models</p>
+          </article>
+          <article>
+            <span>03 / THEORY</span>
+            <h3>理论进阶</h3>
+            <p>Yang Song → Score / SDE 论文 → Max Welling 等专著</p>
+          </article>
+        </div>
+
+        <ResourceExplorer resources={resources} />
       </section>
 
       <section className="update-section" id="updates">

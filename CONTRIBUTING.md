@@ -1,6 +1,6 @@
 # Contributing
 
-感谢你帮助维护 Diffusion + Flow Reading Map。我们欢迎新增论文、修正元数据、补充官方代码链接，以及改进阅读路径。
+感谢你帮助维护 Diffusion + Flow Reading Map。我们欢迎新增论文、修正元数据、补充学习资源，以及改进阅读路径。
 
 ## 收录范围
 
@@ -35,6 +35,10 @@ npm run build
 - `applications`：视频、音频、三维、机器人与科学应用；
 - `evaluation`：理论分析、泛化、记忆与评测；
 - `surveys`：综述、教程与统一视角。
+
+## 新增学习资源
+
+书籍、长篇博客、公开课程、教程和研究代码统一加入 `data/resources.json`，不计入论文库数量。新增前请确认链接来自作者、出版社、课程主页或官方代码仓库，并选择一个 `type`：`book`、`blog`、`course`、`tutorial` 或 `code`。`descriptionZh` 应说明它适合谁、解决什么学习问题，避免照搬原页面简介。
 
 ## PR 说明
 
