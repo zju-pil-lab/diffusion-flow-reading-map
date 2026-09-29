@@ -3066,6 +3066,35 @@
     "lastVerified": "2026-09-12"
   },
   {
+    "id": "arxiv-2603-18992",
+    "arxivId": "2603.18992",
+    "title": "Foundations of Schrödinger Bridges for Generative Modeling",
+    "authors": [
+      "Sophia Tang"
+    ],
+    "year": 2026,
+    "published": "2026-03-19",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2603.18992",
+    "category": "surveys",
+    "tags": [
+      "Schrödinger bridge",
+      "optimal transport",
+      "stochastic control",
+      "score matching",
+      "flow matching",
+      "tutorial"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "从最优传输、随机控制与路径空间优化出发，系统建立 Schrödinger bridge 的数学基础，并统一理解 diffusion、score-based model 与 flow matching。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "manual-curation"
+    ],
+    "lastVerified": "2026-09-30"
+  },
+  {
     "id": "arxiv-2606-01086",
     "arxivId": "2606.01086",
     "title": "Strong Stochastic Flow Maps",
