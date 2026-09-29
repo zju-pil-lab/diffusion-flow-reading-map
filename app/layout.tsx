@@ -10,7 +10,7 @@ const iconUrl = new URL('favicon.png', siteUrl);
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: 'Diffusion + Flow Reading Map · 扩散模型与流匹配论文导航',
-  description: '105 篇扩散模型与 Flow Matching 论文，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
+  description: '108 篇扩散模型与 Flow Matching 论文，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
   alternates: { canonical: canonicalUrl },
   icons: { icon: iconUrl },
   openGraph: {

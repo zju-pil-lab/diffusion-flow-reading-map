@@ -76,7 +76,7 @@ export default function Home() {
         <div><strong>{papers.length}</strong><span>篇精选论文<br />统一数据源</span></div>
         <div><strong>12</strong><span>篇核心主干<br />可完成路径</span></div>
         <div><strong>{categories.length}</strong><span>研究方向<br />交叉索引</span></div>
-        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.09.12</div>
+        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.09.29</div>
       </section>
 
       <section className="section path-section" id="start">
@@ -232,7 +232,7 @@ export default function Home() {
         <p>OPEN · CURATED · BUILT FOR LEARNING</p>
         <p>
           <a href="https://github.com/zju-pil-lab/diffusion-flow-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
-          {' · '}LAST VERIFIED · 2026.09.12
+          {' · '}LAST VERIFIED · 2026.09.29
         </p>
       </footer>
     </main>

@@ -3064,5 +3064,101 @@
       "awesome-diffusion-models"
     ],
     "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv-2606-01086",
+    "arxivId": "2606.01086",
+    "title": "Strong Stochastic Flow Maps",
+    "authors": [
+      "Sam McCallum",
+      "Zander W. Blasingame",
+      "Timothy Herschell",
+      "Niklas Rindtorff",
+      "Alexander Tong",
+      "James Foster"
+    ],
+    "year": 2026,
+    "published": "2026-05-31",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2606.01086",
+    "category": "flow",
+    "tags": [
+      "flow maps",
+      "SDE",
+      "strong convergence",
+      "simulation-free training",
+      "few-step sampling"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "将确定性 flow map 推广到加性噪声 SDE 的强解映射，为扩散模型提供保留随机路径信息的 simulation-free 训练与少步采样框架。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-09-29"
+  },
+  {
+    "id": "arxiv-2608-01692",
+    "arxivId": "2608.01692",
+    "title": "Beckmann Transport Models: From Autonomous Flows to One-Step Maps",
+    "authors": [
+      "Lee Cheuk-Kit",
+      "Florentin Coeurdoux",
+      "Yuyuan Chen",
+      "Sophia Tang",
+      "Peter Potaptchik",
+      "Yilun Du",
+      "Michael Samuel Albergo",
+      "Eric Vanden-Eijnden"
+    ],
+    "year": 2026,
+    "published": "2026-08-03",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.01692",
+    "category": "flow",
+    "tags": [
+      "autonomous flow",
+      "Beckmann transport",
+      "flow matching",
+      "one-step generation",
+      "singular targets"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "以时间无关速度场连接分布，并从 Beckmann 输运的通量约束推导可直接学习的单步生成映射，统一 autonomous flow、Poisson flow 与 equilibrium matching。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-09-29"
+  },
+  {
+    "id": "arxiv-2609-35377",
+    "arxivId": "2609.35377",
+    "title": "First Learn, Then Memorize: The Spectral Bias of Diffusion Models",
+    "authors": [
+      "Raphaël Urfin",
+      "Tony Bonnaire",
+      "Giulio Biroli",
+      "Marc Mézard"
+    ],
+    "year": 2026,
+    "published": "2026-09-28",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.35377",
+    "category": "evaluation",
+    "tags": [
+      "spectral bias",
+      "generalization",
+      "memorization",
+      "neural tangent kernel",
+      "score matching"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "从噪声训练样本上的 NTK Gram 谱解释扩散模型为何先学习分布结构、后记忆单个样本，并给出抑制记忆的谱正则化线索。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-09-29"
   }
 ]
