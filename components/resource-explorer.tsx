@@ -98,7 +98,12 @@ export default function ResourceExplorer({ resources }: { resources: LearningRes
               <div className="resource-tags">
                 {resource.tags.slice(0, 4).map((tag) => <span key={tag}>{tag}</span>)}
               </div>
-              <a href={resource.url} target="_blank" rel="noreferrer" aria-label={`打开学习资源：${resource.title}`}>↗</a>
+              <div className="resource-card-actions">
+                {resource.videoUrl && (
+                  <a href={resource.videoUrl} target="_blank" rel="noreferrer">Video ↗</a>
+                )}
+                <a href={resource.url} target="_blank" rel="noreferrer" aria-label={`打开学习资源：${resource.title}`}>Source ↗</a>
+              </div>
             </div>
           </article>
         ))}

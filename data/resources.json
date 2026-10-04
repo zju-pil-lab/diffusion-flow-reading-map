@@ -140,6 +140,21 @@
     "lastVerified": "2026-09-12"
   },
   {
+    "id": "cvpr-2026-real-time-diffusion-tutorial",
+    "type": "tutorial",
+    "title": "The Principles of Diffusion Models: Real-Time Continuous & Discrete Diffusion",
+    "creators": ["Chieh-Hsin Lai", "Subham Sahoo", "Dongjun Kim", "Yang Song", "Yuki Mitsufuji", "Stefano Ermon"],
+    "source": "CVPR 2026 · Tutorial",
+    "year": 2026,
+    "url": "https://cvpr.thecvf.com/virtual/2026/tutorial/36147",
+    "videoUrl": "https://www.youtube.com/watch?v=85XNkTqAmT0",
+    "level": "系统学习",
+    "descriptionZh": "面向连续与离散扩散的快速生成教程，系统讲解 ODE 采样、少步蒸馏、Consistency 与 Flow Map 方法、离散一致性蒸馏，以及支持少步生成和推理时扩展的采样器，并配有实践演示。",
+    "tags": ["Continuous Diffusion", "Discrete Diffusion", "Few-Step Generation", "Flow Maps", "Distillation"],
+    "featured": false,
+    "lastVerified": "2026-10-04"
+  },
+  {
     "id": "meta-flow-matching-code",
     "type": "code",
     "title": "Flow Matching",

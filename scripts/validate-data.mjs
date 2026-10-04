@@ -77,11 +77,16 @@ for (const [index, resource] of resources.entries()) {
   if (!Array.isArray(resource.creators) || resource.creators.length === 0) errors.push(`${label}: creators must be a non-empty array.`);
   if (!Array.isArray(resource.tags) || resource.tags.length === 0) errors.push(`${label}: tags must be a non-empty array.`);
   if (!/^https:\/\//.test(resource.url)) errors.push(`${label}: URL must use HTTPS.`);
+  if (resource.videoUrl && !/^https:\/\//.test(resource.videoUrl)) errors.push(`${label}: video URL must use HTTPS.`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(resource.lastVerified)) errors.push(`${label}: invalid verification date ${resource.lastVerified}.`);
   if (seenResourceIds.has(resource.id)) errors.push(`${label}: duplicate resource id.`);
   if (seenResourceUrls.has(resource.url)) errors.push(`${label}: duplicate resource URL.`);
   seenResourceIds.add(resource.id);
   seenResourceUrls.add(resource.url);
+  if (resource.videoUrl) {
+    if (seenResourceUrls.has(resource.videoUrl)) errors.push(`${label}: duplicate resource video URL.`);
+    seenResourceUrls.add(resource.videoUrl);
+  }
 }
 
 for (const type of allowedResourceTypes) {

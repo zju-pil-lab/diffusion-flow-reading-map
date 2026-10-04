@@ -10,6 +10,7 @@ export type LearningResource = {
   source: string;
   year: number;
   url: string;
+  videoUrl?: string;
   level: string;
   descriptionZh: string;
   tags: string[];

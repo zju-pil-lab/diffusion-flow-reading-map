@@ -342,15 +342,16 @@ select:focus-visible {
 .resource-card-foot { align-items: end; bottom: 20px; display: flex; gap: 20px; justify-content: space-between; left: 22px; position: absolute; right: 22px; }
 .resource-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .resource-tags span { background: #e7e5df; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 8px; padding: 4px 6px; }
-.resource-card-foot > a { font-size: 18px; transition: transform .2s ease; }
-.resource-card-foot > a:hover { transform: translate(2px, -2px); }
+.resource-card-actions { display: flex; flex: 0 0 auto; gap: 12px; }
+.resource-card-actions a { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; letter-spacing: .05em; text-transform: uppercase; }
+.resource-card-actions a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .resource-card-featured { background: var(--ink); color: var(--white); }
 .resource-card-featured .resource-card-meta,
 .resource-card-featured .resource-creators,
 .resource-card-featured .resource-description { color: #a9aca3; }
 .resource-card-featured .resource-level { color: var(--signal); }
 .resource-card-featured .resource-tags span { background: #30332e; color: #c5c8bf; }
-.resource-card-featured .resource-card-foot > a { color: var(--signal); }
+.resource-card-featured .resource-card-actions a { color: var(--signal); }
 
 .update-section { background: var(--signal); border-top: 1px solid var(--ink); display: grid; gap: clamp(60px, 10vw, 160px); grid-template-columns: .8fr 1.6fr; padding: clamp(90px, 11vw, 165px) var(--gutter); }
 .update-lead { align-self: start; }
