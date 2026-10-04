@@ -3161,6 +3161,38 @@
     "lastVerified": "2026-09-29"
   },
   {
+    "id": "arxiv-2609-11801",
+    "arxivId": "2609.11801",
+    "title": "Thinking with Looped Flows",
+    "authors": [
+      "Ayhan Suleymanzade",
+      "Chanhyuk Lee",
+      "Floor Eijkelboom",
+      "Nicholas M. Boffi",
+      "İsmail İlkan Ceylan",
+      "Jinwoo Kim"
+    ],
+    "year": 2026,
+    "published": "2026-09-10",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.11801",
+    "category": "flow",
+    "tags": [
+      "looped models",
+      "probability flow",
+      "recurrent reasoning",
+      "inference-time scaling",
+      "denoising"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "以逐步降噪的局部目标训练带循环状态的概率流，使模型无需长程反向传播也能积累推理计算，并通过更细时间网格实现推理时扩展与多解生成。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-04"
+  },
+  {
     "id": "arxiv-2609-35377",
     "arxivId": "2609.35377",
     "title": "First Learn, Then Memorize: The Spectral Bias of Diffusion Models",
