@@ -163,6 +163,12 @@ export default function PaperExplorer({ papers }: { papers: Paper[] }) {
                 <div className="tag-list">
                   {paper.tags.slice(0, 4).map((tag) => <span key={tag}>{tag}</span>)}
                 </div>
+                {(paper.projectUrl || paper.codeUrl) && (
+                  <div className="paper-links">
+                    {paper.projectUrl && <a href={paper.projectUrl} target="_blank" rel="noreferrer">Project page ↗</a>}
+                    {paper.codeUrl && <a href={paper.codeUrl} target="_blank" rel="noreferrer">Code ↗</a>}
+                  </div>
+                )}
               </div>
               <a className="paper-out" href={paper.url} target="_blank" rel="noreferrer" aria-label={`打开论文：${paper.title}`}>↗</a>
             </article>

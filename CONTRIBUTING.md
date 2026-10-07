@@ -4,7 +4,7 @@
 
 ## 收录范围
 
-论文应直接推进扩散生成、score-based modeling、Flow Matching、Rectified Flow，或提供理解这些方法所必需的理论、求解器、评测与跨领域应用。普通生成模型或仅在背景中提及 diffusion / flow 的工作不进入核心论文库。
+论文应直接推进扩散生成、score-based modeling、Flow Matching、Rectified Flow，或提供理解这些方法所必需的理论、求解器、评测与跨领域应用。普通生成模型或仅在背景中提及 diffusion / flow 的工作不进入核心论文库；若相邻生成范式直接以 diffusion / flow 为基线，并清晰揭示质量、速度或架构权衡，可作为 `frontier` 或 `context` 条目收录。
 
 ## 新增论文
 
@@ -28,7 +28,7 @@ npm run build
 - `sampling`：采样器、数值求解器与并行采样；
 - `guidance`：条件引导、结构控制、个性化与编辑；
 - `latent`：在压缩潜空间中的 diffusion / flow；
-- `architectures`：U-Net、DiT 与规模化设计；
+- `architectures`：U-Net、DiT、因果潜变量架构与规模化设计；
 - `distillation`：consistency、蒸馏与少步生成；
 - `flow`：Flow Matching、Conditional Flow Matching、Rectified Flow 与 stochastic interpolants；
 - `geometry`：流形、离散、等变和结构数据；

@@ -33,6 +33,8 @@ for (const [index, paper] of papers.entries()) {
   if (!allowedCategories.has(paper.category)) errors.push(`${label}: unknown category ${paper.category}.`);
   if (!allowedTiers.has(paper.tier)) errors.push(`${label}: unknown tier ${paper.tier}.`);
   if (!/^https:\/\//.test(paper.url)) errors.push(`${label}: URL must use HTTPS.`);
+  if (paper.projectUrl && !/^https:\/\//.test(paper.projectUrl)) errors.push(`${label}: project URL must use HTTPS.`);
+  if (paper.codeUrl && !/^https:\/\//.test(paper.codeUrl)) errors.push(`${label}: code URL must use HTTPS.`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(paper.published)) errors.push(`${label}: invalid first-posted date ${paper.published}.`);
   if (paper.arxivId && paper.url !== `https://arxiv.org/abs/${paper.arxivId}`) errors.push(`${label}: arXiv URL and arxivId disagree.`);
 

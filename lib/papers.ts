@@ -11,6 +11,8 @@ export type Paper = {
   published: string;
   venue: string;
   url: string;
+  projectUrl?: string;
+  codeUrl?: string;
   category: string;
   tags: string[];
   tier: PaperTier;
@@ -68,7 +70,7 @@ export const categories: Category[] = [
     id: 'architectures',
     label: 'Architectures',
     zh: '架构与规模化',
-    description: '从 U-Net 到 Diffusion Transformer，以及高分辨率训练和系统扩展。',
+    description: '从 U-Net、DiT 到因果潜变量架构，以及高分辨率训练和系统扩展。',
     formula: 'U-Net → DiT',
   },
   {

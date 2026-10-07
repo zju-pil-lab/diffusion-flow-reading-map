@@ -302,6 +302,9 @@ select:focus-visible {
 .catalog-why span { color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 8px; letter-spacing: .08em; margin-right: 10px; text-transform: uppercase; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
 .tag-list span { background: #e7e5df; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 8px; padding: 4px 6px; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 13px; }
+.paper-links a { border-bottom: 1px solid var(--ink); color: var(--ink); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; letter-spacing: .04em; padding-bottom: 2px; text-transform: uppercase; }
+.paper-links a:hover { color: var(--signal-dark); }
 .paper-out { font-size: 18px; transition: transform .2s ease; }
 .paper-out:hover { transform: translate(2px, -2px); }
 .load-more { background: var(--ink); border: 1px solid var(--ink); color: var(--white); cursor: pointer; display: flex; font-size: 12px; font-weight: 700; justify-content: space-between; margin: 18px 0 0; min-height: 52px; padding: 0 18px; align-items: center; width: 100%; }

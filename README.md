@@ -4,7 +4,7 @@
 
 在线阅读：[Diffusion + Flow Reading Map](https://zju-pil-lab.github.io/diffusion-flow-reading-map/)
 
-项目以研究问题和方法类别为主线，以论文首次公开时间为排序维度。当前收录 110 篇经一手页面核对的论文，覆盖 diffusion、score/SDE、guidance、latent diffusion、sampling、distillation、Flow Matching、Rectified Flow、结构空间与跨领域应用。学习资源区另收录专著、博客、课程、教程与代码入口，不计入论文数量。
+项目以研究问题和方法类别为主线，以论文首次公开时间为排序维度。当前收录 111 篇经一手页面核对的论文，覆盖 diffusion、score/SDE、guidance、latent diffusion、sampling、distillation、Flow Matching、Rectified Flow、结构空间与跨领域应用。学习资源区另收录专著、博客、课程、教程与代码入口，不计入论文数量。
 
 ## 设计原则
 

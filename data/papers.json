@@ -3221,5 +3221,35 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-09-29"
+  },
+  {
+    "id": "arxiv-2610-06545",
+    "arxivId": "2610.06545",
+    "title": "Empirical Variational Autoencoder",
+    "authors": [
+      "Kaede Shiohara"
+    ],
+    "year": 2026,
+    "published": "2026-10-05",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.06545",
+    "projectUrl": "https://mapooon.github.io/EVAPage/",
+    "codeUrl": "https://github.com/mapooon/EVA",
+    "category": "architectures",
+    "tags": [
+      "variational autoencoder",
+      "empirical latent prior",
+      "autoregressive generation",
+      "diffusion alternative",
+      "image and audio"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "以仅增加一层线性预测头的方式，让 VAE 从训练数据学习自回归潜变量先验，缓解先验—后验分布缺口；它以非量化、非迭代的祖先采样挑战 AR-Diffusion，是理解生成质量与推理速度权衡的一条有趣替代路线。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "manual-curation"
+    ],
+    "lastVerified": "2026-10-07"
   }
 ]
