@@ -56,6 +56,20 @@
     "lastVerified": "2026-09-12"
   },
   {
+    "id": "sander-flow-maps-2026",
+    "type": "blog",
+    "title": "Learning the integral of a diffusion model",
+    "creators": ["Sander Dieleman"],
+    "source": "Sander Dieleman · Blog",
+    "year": 2026,
+    "url": "https://sander.ai/2026/05/06/flow-maps.html",
+    "level": "理论进阶",
+    "descriptionZh": "从扩散 ODE 的局部速度积分出发，统一解释 Flow Map、Consistency Models 与 MeanFlow，系统比较 compositionality、Lagrangian 和 Eulerian 三类一致性条件，并串联蒸馏、从零训练、一步与少步采样、奖励引导和离散数据扩展。",
+    "tags": ["Flow Maps", "Consistency Models", "MeanFlow", "Distillation"],
+    "featured": true,
+    "lastVerified": "2026-10-12"
+  },
+  {
     "id": "mit-flow-diffusion-course-2026",
     "type": "course",
     "title": "Introduction to Flow Matching and Diffusion Models",

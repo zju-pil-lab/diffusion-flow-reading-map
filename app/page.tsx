@@ -44,7 +44,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> A RESEARCH READING MAP · SEP 2026</p>
+          <p className="eyebrow"><span /> A RESEARCH READING MAP · OCT 2026</p>
           <h1>
             从 <em>Diffusion</em> 到 <em>Flow</em>，<br />
             建立生成模型主线。
@@ -76,7 +76,7 @@ export default function Home() {
         <div><strong>{papers.length}</strong><span>篇精选论文<br />统一数据源</span></div>
         <div><strong>12</strong><span>篇核心主干<br />可完成路径</span></div>
         <div><strong>{categories.length}</strong><span>研究方向<br />交叉索引</span></div>
-        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.10.07</div>
+        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.10.12</div>
       </section>
 
       <section className="section path-section" id="start">
@@ -221,8 +221,11 @@ export default function Home() {
           <a href="https://github.com/billzi2016/awesome-flow-matching" target="_blank" rel="noreferrer">
             <span>03</span><div><b>Awesome Flow Matching</b><p>用于跟踪 flow matching、rectified flow、几何方法及应用分支。</p></div><i>↗</i>
           </a>
+          <a href="https://sander.ai/2026/05/06/flow-maps.html" target="_blank" rel="noreferrer">
+            <span>04</span><div><b>Sander Dieleman · Learning the integral of a diffusion model</b><p>用于梳理 Flow Map、Consistency、MeanFlow 与少步蒸馏主线；本站筛选其核心方法论文并回到一手记录核对。</p></div><i>↗</i>
+          </a>
           <div className="source-item">
-            <span>04</span><div><b>Primary records · arXiv / proceedings</b><p>标题、作者、首次公开日期与论文链接以一手记录为准；不转载论文摘要。</p></div><i>✓</i>
+            <span>05</span><div><b>Primary records · arXiv / proceedings</b><p>标题、作者、首次公开日期与论文链接以一手记录为准；不转载论文摘要。</p></div><i>✓</i>
           </div>
         </div>
       </section>
@@ -232,7 +235,7 @@ export default function Home() {
         <p>OPEN · CURATED · BUILT FOR LEARNING</p>
         <p>
           <a href="https://github.com/zju-pil-lab/diffusion-flow-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
-          {' · '}LAST VERIFIED · 2026.10.07
+          {' · '}LAST VERIFIED · 2026.10.12
         </p>
       </footer>
     </main>

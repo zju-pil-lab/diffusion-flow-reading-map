@@ -3251,5 +3251,126 @@
       "manual-curation"
     ],
     "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "arxiv-2511-19797",
+    "arxivId": "2511.19797",
+    "title": "Terminal Velocity Matching",
+    "authors": [
+      "Linqi Zhou",
+      "Mathias Parger",
+      "Ayaan Haque",
+      "Jiaming Song"
+    ],
+    "year": 2025,
+    "published": "2025-11-24",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2511.19797",
+    "category": "distillation",
+    "tags": [
+      "flow maps",
+      "terminal velocity",
+      "self-distillation",
+      "one-step generation"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "从 Lagrangian 一致性出发联合学习局部速度和终端映射，代表无需预训练教师、直接从零训练 Flow Map 的重要路线。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "sander-flow-maps-2026"
+    ],
+    "lastVerified": "2026-10-12"
+  },
+  {
+    "id": "arxiv-2512-02012",
+    "arxivId": "2512.02012",
+    "title": "Improved Mean Flows: On the Challenges of Fastforward Generative Models",
+    "authors": [
+      "Zhengyang Geng",
+      "Yiyang Lu",
+      "Zongze Wu",
+      "Eli Shechtman",
+      "J. Zico Kolter",
+      "Kaiming He"
+    ],
+    "year": 2025,
+    "published": "2025-12-01",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2512.02012",
+    "category": "distillation",
+    "tags": [
+      "meanflow",
+      "flow maps",
+      "training stability",
+      "one-step generation"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "系统分析 MeanFlow 的优化难点，并用低方差目标与训练配方提升一步生成的稳定性和可扩展性。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "sander-flow-maps-2026"
+    ],
+    "lastVerified": "2026-10-12"
+  },
+  {
+    "id": "arxiv-2506-14603",
+    "arxivId": "2506.14603",
+    "title": "Align Your Flow: Scaling Continuous-Time Flow Map Distillation",
+    "authors": [
+      "Amirmojtaba Sabour",
+      "Sanja Fidler",
+      "Karsten Kreis"
+    ],
+    "year": 2025,
+    "published": "2025-06-17",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2506.14603",
+    "category": "distillation",
+    "tags": [
+      "flow maps",
+      "distillation",
+      "continuous-time",
+      "few-step generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "把连续时间 Flow Map 蒸馏扩展到高质量生成，是连接自蒸馏、Consistency 与可扩展少步采样的代表工作。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "sander-flow-maps-2026"
+    ],
+    "lastVerified": "2026-10-12"
+  },
+  {
+    "id": "arxiv-2410-12557",
+    "arxivId": "2410.12557",
+    "title": "One Step Diffusion via Shortcut Models",
+    "authors": [
+      "Kevin Frans",
+      "Danijar Hafner",
+      "Sergey Levine",
+      "Pieter Abbeel"
+    ],
+    "year": 2025,
+    "published": "2024-10-16",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2410.12557",
+    "category": "distillation",
+    "tags": [
+      "shortcut models",
+      "self-distillation",
+      "variable-step",
+      "one-step generation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "让模型显式接收步长并通过 bootstrap 学习跨区间跳转，是从局部流走向任意步数与单步生成的简洁基线。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "sander-flow-maps-2026"
+    ],
+    "lastVerified": "2026-10-12"
   }
 ]

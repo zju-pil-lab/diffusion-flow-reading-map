@@ -4,7 +4,7 @@
 
 在线阅读：[Diffusion + Flow Reading Map](https://zju-pil-lab.github.io/diffusion-flow-reading-map/)
 
-项目以研究问题和方法类别为主线，以论文首次公开时间为排序维度。当前收录 111 篇经一手页面核对的论文，覆盖 diffusion、score/SDE、guidance、latent diffusion、sampling、distillation、Flow Matching、Rectified Flow、结构空间与跨领域应用。学习资源区另收录专著、博客、课程、教程与代码入口，不计入论文数量。
+项目以研究问题和方法类别为主线，以论文首次公开时间为排序维度。当前收录 115 篇经一手页面核对的论文，覆盖 diffusion、score/SDE、guidance、latent diffusion、sampling、distillation、Flow Matching、Rectified Flow、结构空间与跨领域应用。学习资源区另收录专著、博客、课程、教程与代码入口，不计入论文数量。
 
 ## 设计原则
 
@@ -17,7 +17,7 @@
 
 ## 学习资源
 
-学习资源与论文库分开维护，并按 `Book`、`Blog`、`Course`、`Tutorial` 和 `Code & Lab` 五类组织。推荐路线分为快速入门、系统学习与理论进阶；书籍包括 *The Principles of Diffusion Models* 与 *Generative AI and Stochastic Thermodynamics: A Tale of Free Energies*。
+学习资源与论文库分开维护，并按 `Book`、`Blog`、`Course`、`Tutorial` 和 `Code & Lab` 五类组织。推荐路线分为快速入门、系统学习与理论进阶；书籍包括 *The Principles of Diffusion Models* 与 *Generative AI and Stochastic Thermodynamics: A Tale of Free Energies*，Flow Map 进阶材料包括 Sander Dieleman 的 *Learning the integral of a diffusion model*。
 
 ## 本地运行
 
@@ -54,6 +54,7 @@ GITHUB_PAGES=true PAGES_BASE_PATH=/diffusion-flow-reading-map npm run build:page
 - [Stanford Diffusion Models Reading List](https://web.stanford.edu/~mrifaki/diffusion-models-readings.html)：用于交叉核对基础阅读主线。
 - [Awesome Diffusion Models](https://github.com/diff-usion/Awesome-Diffusion-Models)：扩散模型方向的广域 watchlist。
 - [Awesome Flow Matching](https://github.com/billzi2016/awesome-flow-matching)：Flow Matching、Rectified Flow 与结构空间分支的 watchlist。
+- [Sander Dieleman, *Learning the integral of a diffusion model*](https://sander.ai/2026/05/06/flow-maps.html)：用于梳理 Flow Map、Consistency、MeanFlow 与少步蒸馏的核心方法链。
 - 论文元数据最终回到 arXiv / proceedings 等一手记录核对；本站不转载论文摘要或正文。
 
 ## License
