@@ -3372,5 +3372,99 @@
       "sander-flow-maps-2026"
     ],
     "lastVerified": "2026-10-12"
+  },
+  {
+    "id": "arxiv-2409-08861",
+    "arxivId": "2409.08861",
+    "title": "Adjoint Matching: Fine-tuning Flow and Diffusion Generative Models with Memoryless Stochastic Optimal Control",
+    "authors": [
+      "Carles Domingo-Enrich",
+      "Michal Drozdzal",
+      "Brian Karrer",
+      "Ricky T. Q. Chen"
+    ],
+    "year": 2025,
+    "published": "2024-09-13",
+    "venue": "ICLR 2025",
+    "url": "https://arxiv.org/abs/2409.08861",
+    "category": "guidance",
+    "tags": [
+      "reward fine-tuning",
+      "stochastic optimal control",
+      "adjoint matching",
+      "memoryless control"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "把 flow 与 diffusion 的奖励微调写成随机最优控制，并以回归形式提出 Adjoint Matching；这是理解离散版 DAM 及后续理论工作的连续空间起点。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "dam-method-lineage-2026"
+    ],
+    "lastVerified": "2026-10-13"
+  },
+  {
+    "id": "arxiv-2602-08243",
+    "arxivId": "2602.08243",
+    "title": "Discrete Adjoint Schrödinger Bridge Sampler",
+    "authors": [
+      "Wei Guo",
+      "Yuchen Zhu",
+      "Xiaochen Du",
+      "Juno Nam",
+      "Yongxin Chen",
+      "Rafael Gómez-Bombarelli",
+      "Guan-Horng Liu",
+      "Molei Tao",
+      "Jaemoo Choi"
+    ],
+    "year": 2026,
+    "published": "2026-02-09",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08243",
+    "category": "geometry",
+    "tags": [
+      "discrete diffusion",
+      "Schrödinger bridge",
+      "adjoint matching",
+      "stochastic optimal control",
+      "CTMC"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "从状态空间无关的角度把 Adjoint Matching 与 Schrödinger bridge 推广到离散空间，并揭示循环群结构在离散最优控制中的作用。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "dam-citation-network-2026"
+    ],
+    "lastVerified": "2026-10-13"
+  },
+  {
+    "id": "arxiv-2604-08580",
+    "arxivId": "2604.08580",
+    "title": "Adjoint Matching through the Lens of the Stochastic Maximum Principle in Optimal Control",
+    "authors": [
+      "Carles Domingo-Enrich",
+      "Jiequn Han"
+    ],
+    "year": 2026,
+    "published": "2026-03-28",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2604.08580",
+    "category": "evaluation",
+    "tags": [
+      "adjoint matching",
+      "stochastic maximum principle",
+      "Hamilton-Jacobi-Bellman",
+      "optimal control"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "从随机最大值原理严格推导 Adjoint Matching，说明其驻点与 HJB 条件的关系，并界定简化损失在状态依赖扩散下何时不再充分。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "dam-citation-network-2026"
+    ],
+    "lastVerified": "2026-10-13"
   }
 ]
