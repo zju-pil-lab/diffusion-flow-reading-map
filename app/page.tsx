@@ -1,5 +1,6 @@
 import PaperExplorer from '@/components/paper-explorer';
 import ResourceExplorer from '@/components/resource-explorer';
+import ThemeToggle from '@/components/theme-toggle';
 import {
   categories,
   categoryById,
@@ -19,7 +20,8 @@ export default function Home() {
   const coreCategories = coreCategoryIds.map((id) => categoryById[id]);
 
   return (
-    <main>
+    <>
+      <a className="skip-link" href="#main-content">跳转到主要内容</a>
       <nav className="site-nav" aria-label="主导航">
         <a className="wordmark" href="#top" aria-label="Diffusion and Flow Reading Map 首页">
           <span className="wordmark-mark" aria-hidden="true" />
@@ -32,22 +34,27 @@ export default function Home() {
           <a href="#resources">学习资源</a>
           <a href="#updates">更新机制</a>
         </div>
-        <a
-          className="nav-github"
-          href="https://github.com/zju-pil-lab/diffusion-flow-reading-map"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open source ↗
-        </a>
+        <div className="nav-actions">
+          <ThemeToggle />
+          <a href="https://zju-pil-lab.github.io/">PIL Lab</a>
+          <a
+            className="nav-github"
+            href="https://github.com/zju-pil-lab/diffusion-flow-reading-map"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub ↗
+          </a>
+        </div>
       </nav>
 
+      <main id="main-content" tabIndex={-1}>
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> A RESEARCH READING MAP · OCT 2026</p>
+          <p className="eyebrow">A RESEARCH READING MAP · OCT 2026</p>
           <h1>
             从 <em>Diffusion</em> 到 <em>Flow</em>，<br />
-            建立生成模型主线。
+            建立生成模型的研究主线。
           </h1>
           <p className="hero-deck">
             面向学生与研究者的扩散模型与 Flow Matching 论文导航。
@@ -59,29 +66,21 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="denoise-card" aria-label="从噪声分布到数据分布的概率路径示意">
-          <div className="denoise-head">
-            <span>PROBABILITY PATH</span><span>t →</span>
-          </div>
-          <div className="trace-row trace-muted"><span>0.00</span><code>p₀ = Gaussian noise</code></div>
-          <div className="trace-row"><span>0.33</span><code>ẋₜ = vθ(xₜ, t)</code></div>
-          <div className="trace-row"><span>0.67</span><code>transport · denoise · guide</code></div>
-          <div className="trace-row trace-final"><span>1.00</span><code>p₁ = data distribution</code></div>
-          <div className="noise-field" aria-hidden="true" />
-          <p className="trace-caption">A compact intuition — not a complete numerical solver.</p>
-        </div>
-      </section>
-
-      <section className="stats" aria-label="论文库概况">
-        <div><strong>{papers.length}</strong><span>篇精选论文<br />统一数据源</span></div>
-        <div><strong>12</strong><span>篇核心主干<br />可完成路径</span></div>
-        <div><strong>{categories.length}</strong><span>研究方向<br />交叉索引</span></div>
-        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.10.13</div>
+        <aside className="collection-summary" aria-label="论文集概况">
+          <p className="summary-title">Collection overview</p>
+          <dl>
+            <div><dt>精选论文</dt><dd>{papers.length}</dd></div>
+            <div><dt>核心阅读</dt><dd>12</dd></div>
+            <div><dt>研究方向</dt><dd>{categories.length}</dd></div>
+          </dl>
+          <p className="summary-note"><span className="status-dot" /> 已核验至 2026.10.13</p>
+          <p className="summary-scope">覆盖 diffusion、score-based modeling、Flow Matching、Rectified Flow，以及少步生成与理论分析。</p>
+        </aside>
       </section>
 
       <section className="section path-section" id="start">
         <div className="section-heading sticky-heading">
-          <p className="eyebrow"><span /> CORE READING PATH</p>
+          <p className="eyebrow">CORE READING PATH</p>
           <h2>核心论文<br />阅读路径</h2>
           <p>12 篇论文覆盖 diffusion、score/SDE、引导、潜空间、Flow Matching 与 Rectified Flow。建议按编号阅读，再进入专题分支。</p>
           <div className="scope-note">
@@ -107,7 +106,7 @@ export default function Home() {
 
       <section className="latest-section" aria-labelledby="latest-title">
         <div className="latest-intro">
-          <p className="eyebrow"><span /> LATEST VERIFIED</p>
+          <p className="eyebrow">LATEST VERIFIED</p>
           <h2 id="latest-title">最近收录</h2>
           <p>按论文首次公开日期排序，而不是最新版提交日期；自动发现只生成候选，人工核对后才进入论文库。</p>
         </div>
@@ -129,7 +128,7 @@ export default function Home() {
 
       <section className="section map-section" id="map">
         <div className="section-heading">
-          <p className="eyebrow"><span /> METHOD MAP</p>
+          <p className="eyebrow">METHOD MAP</p>
           <h2>核心方法<br />分类地图</h2>
           <p>主地图按研究问题组织：训练什么、怎样采样、如何控制、在哪个空间生成，以及怎样从随机扩散连接到确定性传输。</p>
         </div>
@@ -156,7 +155,7 @@ export default function Home() {
       <section className="catalog-section" id="library">
         <div className="catalog-heading">
           <div>
-            <p className="eyebrow"><span /> FULL LIBRARY</p>
+            <p className="eyebrow">FULL LIBRARY</p>
             <h2>完整论文库</h2>
           </div>
           <p>按标题、作者或标签搜索；按 12 个研究方向、阅读层级与首次公开时间筛选。每条记录均链接到论文一手页面。</p>
@@ -167,7 +166,7 @@ export default function Home() {
       <section className="resource-section" id="resources">
         <div className="resource-heading">
           <div>
-            <p className="eyebrow"><span /> LEARNING RESOURCES</p>
+            <p className="eyebrow">LEARNING RESOURCES</p>
             <h2>学习资源</h2>
           </div>
           <p>专著用于系统建构，课程与教程帮助补齐推导，博客建立直觉，代码用于复现。资源与论文分别统计，并优先链接作者、课程或出版社的一手页面。</p>
@@ -175,17 +174,17 @@ export default function Home() {
 
         <div className="learning-routes" aria-label="推荐学习路线">
           <article>
-            <span>01 / QUICK START</span>
+            <span>QUICK START</span>
             <h3>快速入门</h3>
             <p>Lilian Weng → MIT OCW → Annotated Diffusion</p>
           </article>
           <article>
-            <span>02 / SYSTEMATIC</span>
+            <span>SYSTEMATIC STUDY</span>
             <h3>系统学习</h3>
             <p>MIT 6.S184 → The Principles of Diffusion Models</p>
           </article>
           <article>
-            <span>03 / THEORY</span>
+            <span>THEORY</span>
             <h3>理论进阶</h3>
             <p>Yang Song → Score / SDE 论文 → Max Welling 等专著</p>
           </article>
@@ -196,19 +195,19 @@ export default function Home() {
 
       <section className="update-section" id="updates">
         <div className="update-lead">
-          <p className="eyebrow"><span /> UPDATE PIPELINE</p>
+          <p className="eyebrow">MAINTENANCE</p>
           <h2>论文收录与<br />更新机制</h2>
         </div>
         <div className="update-steps">
-          <article><span>01 / DISCOVER</span><h3>每周检索</h3><p>GitHub Actions 定期检索 diffusion model、score-based model、flow matching、rectified flow 等 arXiv 关键词。</p></article>
-          <article><span>02 / REVIEW</span><h3>人工审核</h3><p>自动化只创建候选 issue；相关性、主分类、阅读层级与元数据由实验室成员确认。</p></article>
-          <article><span>03 / PUBLISH</span><h3>合并发布</h3><p>数据校验、重复检查与构建通过后，GitHub Pages 自动更新；发布日期统一使用 first-posted。</p></article>
+          <article><span>发现候选</span><h3>每周检索</h3><p>GitHub Actions 定期检索 diffusion model、score-based model、flow matching、rectified flow 等 arXiv 关键词。</p></article>
+          <article><span>确认内容</span><h3>人工审核</h3><p>自动化只创建候选 issue；相关性、主分类、阅读层级与元数据由实验室成员确认。</p></article>
+          <article><span>发布记录</span><h3>校验上线</h3><p>数据校验、重复检查与构建通过后，GitHub Pages 自动更新；发布日期统一使用 first-posted。</p></article>
         </div>
       </section>
 
       <section className="source-section" id="contribute">
         <div>
-          <p className="eyebrow"><span /> SOURCES & CREDIT</p>
+          <p className="eyebrow">SOURCES & CREDIT</p>
           <h2>资料来源与<br />引用说明</h2>
         </div>
         <div className="source-list">
@@ -231,13 +230,14 @@ export default function Home() {
       </section>
 
       <footer>
-        <div><span className="wordmark-mark" />DIFFUSION + FLOW / MAP</div>
-        <p>OPEN · CURATED · BUILT FOR LEARNING</p>
+        <div>Diffusion + Flow Reading Map</div>
+        <p>Probabilistic Inference and Learning Lab</p>
         <p>
           <a href="https://github.com/zju-pil-lab/diffusion-flow-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
           {' · '}LAST VERIFIED · 2026.10.13
         </p>
       </footer>
-    </main>
+      </main>
+    </>
   );
 }

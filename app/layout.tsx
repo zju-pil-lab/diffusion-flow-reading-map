@@ -7,10 +7,38 @@ const siteUrl = new URL(
 const canonicalUrl = siteUrl.toString();
 const iconUrl = new URL('favicon.png', siteUrl);
 
+const themeScript = `
+  (() => {
+    const storageKey = 'pil-color-theme';
+    const root = document.documentElement;
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
+    const getSavedTheme = () => {
+      try {
+        const saved = window.localStorage.getItem(storageKey);
+        return saved === 'light' || saved === 'dark' ? saved : null;
+      } catch {
+        return null;
+      }
+    };
+    const applyTheme = () => {
+      const theme = getSavedTheme() ?? (media.matches ? 'dark' : 'light');
+      root.dataset.theme = theme;
+      root.style.colorScheme = theme;
+    };
+    applyTheme();
+    media.addEventListener('change', () => {
+      if (!getSavedTheme()) applyTheme();
+    });
+    window.addEventListener('storage', (event) => {
+      if (event.key === storageKey) applyTheme();
+    });
+  })();
+`;
+
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: 'Diffusion + Flow Reading Map · 扩散模型与流匹配论文导航',
-  description: '118 篇扩散模型与 Flow Matching 论文，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
+  description: '119 篇扩散模型与 Flow Matching 论文，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
   alternates: { canonical: canonicalUrl },
   icons: { icon: iconUrl },
   openGraph: {
@@ -30,7 +58,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body>{children}</body>
     </html>
   );

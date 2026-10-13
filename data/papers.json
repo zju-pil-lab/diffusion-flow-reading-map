@@ -3420,8 +3420,9 @@
     ],
     "year": 2026,
     "published": "2026-02-09",
-    "venue": "arXiv",
+    "venue": "ICML 2026",
     "url": "https://arxiv.org/abs/2602.08243",
+    "codeUrl": "https://github.com/AlexandreGUO2001/DASBS",
     "category": "geometry",
     "tags": [
       "discrete diffusion",
@@ -3464,6 +3465,37 @@
     "sourceCollections": [
       "arxiv-primary",
       "dam-citation-network-2026"
+    ],
+    "lastVerified": "2026-10-13"
+  },
+  {
+    "id": "arxiv-2610-12102",
+    "arxivId": "2610.12102",
+    "title": "Few-Step Generation via Data-Space Iteration",
+    "authors": [
+      "Shanchuan Lin",
+      "Yansong Peng",
+      "Fu-Yun Wang",
+      "Haoqi Fan"
+    ],
+    "year": 2026,
+    "published": "2026-10-08",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.12102",
+    "projectUrl": "https://g-u-n.github.io/blogs/data-space-iteration.html",
+    "category": "distillation",
+    "tags": [
+      "few-step generation",
+      "data-space iteration",
+      "distribution matching distillation",
+      "flow matching",
+      "schedule-free refinement"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "把少步生成从固定噪声时间网格改写为数据空间中的自我细化，在几乎不改动 DMD 的前提下去掉 schedule search；是比较 flow-space iteration 与迭代精炼路径的一条清晰新基线。",
+    "sourceCollections": [
+      "arxiv-primary"
     ],
     "lastVerified": "2026-10-13"
   }
