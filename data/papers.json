@@ -3559,5 +3559,40 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-10-16"
+  },
+  {
+    "id": "arxiv-2605-19376",
+    "arxivId": "2605.19376",
+    "title": "Generative Recursive Reasoning",
+    "authors": [
+      "Junyeob Baek",
+      "Mingyu Jo",
+      "Minsu Kim",
+      "Mengye Ren",
+      "Yoshua Bengio",
+      "Sungjin Ahn"
+    ],
+    "year": 2026,
+    "published": "2026-05-19",
+    "venue": "NeurIPS 2026",
+    "url": "https://arxiv.org/abs/2605.19376",
+    "projectUrl": "https://ahn-ml.github.io/gram-website/",
+    "codeUrl": "https://github.com/ahn-ml/gram-release",
+    "category": "architectures",
+    "tags": [
+      "GRAM",
+      "recursive reasoning",
+      "latent-variable model",
+      "inference-time scaling",
+      "amortized variational inference",
+      "parallel trajectory sampling"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "GRAM 将确定性的递归推理改写为随机潜变量轨迹，用摊销变分推断训练，并沿递归深度与并行轨迹数量两个方向扩展推理计算。它兼顾条件推理与无条件生成，属于概率潜变量生成架构而非扩散语言模型，可与 Thinking with Looped Flows 对照阅读。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-16"
   }
 ]
