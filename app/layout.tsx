@@ -37,7 +37,7 @@ const themeScript = `
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
-  title: 'Diffusion + Flow Reading Map · 扩散模型与流匹配论文导航',
+  title: '概率生成模型：论文与学习资源 · Diffusion + Flow Reading Map',
   description: '120 篇扩散模型与 Flow Matching 论文，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
   alternates: { canonical: canonicalUrl },
   icons: { icon: iconUrl },
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'zh_CN',
     url: siteUrl,
-    title: 'Diffusion + Flow Reading Map · 扩散模型与流匹配论文导航',
-    description: '从 Diffusion 到 Flow：为学生与研究者整理的论文与学习资源开放导航。',
+    title: '概率生成模型：论文与学习资源 · Diffusion + Flow Reading Map',
+    description: '概率生成模型的研究论文与学习资源，当前重点收录扩散模型与 Flow Matching，支持方法分类与时间筛选。',
     siteName: 'Diffusion + Flow Reading Map',
   },
   twitter: {
     card: 'summary',
-    title: 'Diffusion + Flow Reading Map · 扩散模型与流匹配论文导航',
-    description: '从 Diffusion 到 Flow：为学生与研究者整理的论文与学习资源开放导航。',
+    title: '概率生成模型：论文与学习资源 · Diffusion + Flow Reading Map',
+    description: '概率生成模型的研究论文与学习资源，当前重点收录扩散模型与 Flow Matching，支持方法分类与时间筛选。',
   },
 };
 

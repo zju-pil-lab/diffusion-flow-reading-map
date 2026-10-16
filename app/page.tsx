@@ -53,12 +53,12 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">A RESEARCH READING MAP · OCT 2026</p>
           <h1>
-            从 <em>Diffusion</em> 到 <em>Flow</em>，<br />
-            建立生成模型的研究主线。
+            概率生成模型<br />
+            论文与学习资源
           </h1>
           <p className="hero-deck">
-            面向学生与研究者的扩散模型与 Flow Matching 论文导航。
-            以研究问题组织方法，以首次公开时间追踪进展。
+            面向学生与研究者的概率生成模型文献索引，当前重点收录扩散模型与 Flow Matching。
+            按研究问题分类，并以首次公开时间追踪进展。
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#start">从 12 篇开始 <span>→</span></a>
