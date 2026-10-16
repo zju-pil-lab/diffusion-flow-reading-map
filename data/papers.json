@@ -3498,5 +3498,37 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-10-13"
+  },
+  {
+    "id": "arxiv-2610-20331",
+    "arxivId": "2610.20331",
+    "title": "Are We Overthinking One-Step Generation?",
+    "authors": [
+      "Woobin Park",
+      "Jaeyeon Kim",
+      "Yilun Du",
+      "Sitan Chen",
+      "Bohyung Han"
+    ],
+    "year": 2026,
+    "published": "2026-10-14",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.20331",
+    "codeUrl": "https://github.com/JaeyeonKim01/priming",
+    "category": "distillation",
+    "tags": [
+      "Priming Models",
+      "one-step generation",
+      "reconstruction pretraining",
+      "distribution matching",
+      "feature-space post-training"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "Priming Models 先用固定噪声级别的重建目标预训练，再进行特征空间中的分布匹配后训练。它为比较单步生成方法的训练复杂度与生成质量提供了一条简洁路线，可与扩散蒸馏、Consistency 和 MeanFlow 对照阅读。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-16"
   }
 ]

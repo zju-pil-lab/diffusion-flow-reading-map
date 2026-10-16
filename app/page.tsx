@@ -73,7 +73,7 @@ export default function Home() {
             <div><dt>核心阅读</dt><dd>12</dd></div>
             <div><dt>研究方向</dt><dd>{categories.length}</dd></div>
           </dl>
-          <p className="summary-note"><span className="status-dot" /> 已核验至 2026.10.13</p>
+          <p className="summary-note"><span className="status-dot" /> 已核验至 2026.10.16</p>
           <p className="summary-scope">覆盖 diffusion、score-based modeling、Flow Matching、Rectified Flow，以及少步生成与理论分析。</p>
         </aside>
       </section>
@@ -234,7 +234,7 @@ export default function Home() {
         <p>Probabilistic Inference and Learning Lab</p>
         <p>
           <a href="https://github.com/zju-pil-lab/diffusion-flow-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
-          {' · '}LAST VERIFIED · 2026.10.13
+          {' · '}LAST VERIFIED · 2026.10.16
         </p>
       </footer>
       </main>
