@@ -3530,5 +3530,34 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-10-16"
+  },
+  {
+    "id": "arxiv-2610-13614",
+    "arxivId": "2610.13614",
+    "title": "Some remarks on the connection between generative diffusion and optimal transport",
+    "authors": [
+      "Giulio Biroli",
+      "Marc Mézard"
+    ],
+    "year": 2026,
+    "published": "2026-10-09",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.13614",
+    "category": "evaluation",
+    "tags": [
+      "optimal transport",
+      "entropic regularization",
+      "speciation transition",
+      "statistical physics",
+      "Ornstein-Uhlenbeck process",
+      "variational principle"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "将数据与 OU 加噪变量的耦合联系到熵正则最优传输，比较扩散、流匹配和 OT 的模态分化机制，并给出反向 score 动力学的变分原理，是连接生成模型、最优传输与统计物理的理论读物。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-16"
   }
 ]
