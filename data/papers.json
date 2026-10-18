@@ -3594,5 +3594,36 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-10-16"
+  },
+  {
+    "id": "arxiv-2610-05998",
+    "arxivId": "2610.05998",
+    "title": "Langevin Flow Maps: Efficient Molecular Dynamics and Transition Path Sampling",
+    "authors": [
+      "Sam McCallum",
+      "Niklas Rindtorff",
+      "Alexander Tong",
+      "James Foster"
+    ],
+    "year": 2026,
+    "published": "2026-10-05",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.05998",
+    "category": "applications",
+    "tags": [
+      "flow maps",
+      "molecular dynamics",
+      "Langevin dynamics",
+      "transition path sampling",
+      "learned stochastic integrator",
+      "AI for Science"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "将机器学习力场扩展为可学习的 Langevin 随机积分器，以大时间步推进分子动力学，并考察动力学性质的准确性与跨分子迁移。适合研究 flow maps 在科学模拟中的应用，以及加速采样与保持物理动力学之间的取舍。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-18"
   }
 ]

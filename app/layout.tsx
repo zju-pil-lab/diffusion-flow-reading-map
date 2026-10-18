@@ -38,7 +38,7 @@ const themeScript = `
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: '概率生成模型：论文与学习资源 · Diffusion + Flow Reading Map',
-  description: '122 篇概率生成模型论文，重点覆盖扩散模型与 Flow Matching，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
+  description: '123 篇概率生成模型论文，重点覆盖扩散模型与 Flow Matching，以及专著、课程、教程、博客与代码资源：包含核心路径、方法分类、时间筛选与持续更新。',
   alternates: { canonical: canonicalUrl },
   icons: { icon: iconUrl },
   openGraph: {
