@@ -3647,7 +3647,7 @@
     "projectUrl": "https://zjwfufu.github.io/SMD-Page/",
     "category": "distillation",
     "tags": [
-      "Simplified Matching Distillation",
+      "Simplified Matching Distillation (SMD)",
       "on-policy distillation",
       "few-step generation",
       "velocity regression",
