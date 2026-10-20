@@ -3625,5 +3625,41 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-10-18"
+  },
+  {
+    "id": "arxiv-2610-18472",
+    "arxivId": "2610.18472",
+    "title": "Simplifying and Improving On-Policy Distillation for Few-Step Diffusion",
+    "authors": [
+      "Jiawei Zhang",
+      "Ziyu Wan",
+      "Nanye Ma",
+      "Long Zhao",
+      "Dong Chen",
+      "Hongyu Liu",
+      "Qifeng Chen",
+      "Dongdong Chen"
+    ],
+    "year": 2026,
+    "published": "2026-10-13",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.18472",
+    "projectUrl": "https://zjwfufu.github.io/SMD-Page/",
+    "category": "distillation",
+    "tags": [
+      "Simplified Matching Distillation",
+      "on-policy distillation",
+      "few-step generation",
+      "velocity regression",
+      "Pivot",
+      "flow models"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "SMD 以 on-policy 速度回归进行少步蒸馏，用仅训练时使用的 Pivot 残差代理分离局部速度变化与区间平均预测，不增加部署模型。适合与 DMD、Consistency 和 MeanFlow 对照，理解回归式蒸馏如何简化训练并支持 4-NFE 生成。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-20"
   }
 ]
