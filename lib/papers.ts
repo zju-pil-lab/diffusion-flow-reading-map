@@ -11,6 +11,8 @@ export type Paper = {
   published: string;
   venue: string;
   url: string;
+  journalUrl?: string;
+  journalPublished?: string;
   projectUrl?: string;
   codeUrl?: string;
   category: string;

@@ -12,6 +12,7 @@
 2. 优先使用不带 `v1` / `v2` 的 arXiv abstract URL。
 3. `published` 使用首次公开日期；`year` 使用该首次公开年份。
 4. 每篇论文选择一个主 `category`，用多个 `tags` 表示交叉关系。
+   同一工作有期刊版本时不要另建重复条目：保留首次公开日期和 canonical arXiv URL，更新正式标题与 `venue`，并用 `journalUrl`、`journalPublished` 记录期刊链接和发表日期。
 5. 不复制论文摘要。Core 条目必须写原创、具体的 `whyReadZh`。
 6. 将记录加入 `data/papers.json`，然后运行：
 

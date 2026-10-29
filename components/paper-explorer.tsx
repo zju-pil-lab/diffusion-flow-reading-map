@@ -163,8 +163,9 @@ export default function PaperExplorer({ papers }: { papers: Paper[] }) {
                 <div className="tag-list">
                   {paper.tags.slice(0, 4).map((tag) => <span key={tag}>{tag}</span>)}
                 </div>
-                {(paper.projectUrl || paper.codeUrl) && (
+                {(paper.journalUrl || paper.projectUrl || paper.codeUrl) && (
                   <div className="paper-links">
+                    {paper.journalUrl && <a href={paper.journalUrl} target="_blank" rel="noreferrer">Journal{paper.journalPublished && <> · <time dateTime={paper.journalPublished}>{paper.journalPublished}</time></>} ↗</a>}
                     {paper.projectUrl && <a href={paper.projectUrl} target="_blank" rel="noreferrer">Project page ↗</a>}
                     {paper.codeUrl && <a href={paper.codeUrl} target="_blank" rel="noreferrer">Code ↗</a>}
                   </div>

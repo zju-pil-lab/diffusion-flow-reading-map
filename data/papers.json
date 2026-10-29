@@ -3661,5 +3661,43 @@
       "arxiv-primary"
     ],
     "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "arxiv-2505-21777",
+    "arxivId": "2505.21777",
+    "title": "Emergence of diffusion models from associative memory through memorization and generalization",
+    "authors": [
+      "Bao Pham",
+      "Gabriel Raya",
+      "Matteo Negri",
+      "Mohammed J. Zaki",
+      "Luca Ambrogioni",
+      "Dmitry Krotov"
+    ],
+    "year": 2025,
+    "published": "2025-05-27",
+    "venue": "Nature Communications 2026",
+    "url": "https://arxiv.org/abs/2505.21777",
+    "journalUrl": "https://www.nature.com/articles/s41467-026-78727-y",
+    "journalPublished": "2026-10-25",
+    "projectUrl": "https://www.gabrielraya.com/blog/2025/memorization-generalization/",
+    "category": "evaluation",
+    "tags": [
+      "associative memory 联想记忆",
+      "memorization and generalization 记忆与泛化",
+      "Hopfield networks",
+      "spurious states",
+      "DenseAM",
+      "energy landscape",
+      "statistical physics"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "从稠密联想记忆与能量景观理解扩散生成，分析训练数据增加时记忆、伪吸引子与泛化之间的转变。适合与 Memory in Plain Sight 对照，研究吸引域、能量曲率及统计物理视角下的生成机制。",
+    "sourceCollections": [
+      "arxiv-primary",
+      "nature-communications-primary"
+    ],
+    "lastVerified": "2026-10-29"
   }
 ]

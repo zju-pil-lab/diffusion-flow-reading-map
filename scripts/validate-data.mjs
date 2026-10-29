@@ -35,6 +35,15 @@ for (const [index, paper] of papers.entries()) {
   if (!/^https:\/\//.test(paper.url)) errors.push(`${label}: URL must use HTTPS.`);
   if (paper.projectUrl && !/^https:\/\//.test(paper.projectUrl)) errors.push(`${label}: project URL must use HTTPS.`);
   if (paper.codeUrl && !/^https:\/\//.test(paper.codeUrl)) errors.push(`${label}: code URL must use HTTPS.`);
+  if (paper.journalUrl && !/^https:\/\//.test(paper.journalUrl)) errors.push(`${label}: journal URL must use HTTPS.`);
+  if (paper.journalPublished) {
+    const date = new Date(paper.journalPublished);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(paper.journalPublished) || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== paper.journalPublished) {
+      errors.push(`${label}: invalid journal publication date ${paper.journalPublished}.`);
+    }
+    if (!paper.journalUrl) errors.push(`${label}: journal publication date requires a journal URL.`);
+    if (paper.journalPublished < paper.published) errors.push(`${label}: journal publication precedes the recorded first-public date.`);
+  }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(paper.published)) errors.push(`${label}: invalid first-posted date ${paper.published}.`);
   if (paper.arxivId && paper.url !== `https://arxiv.org/abs/${paper.arxivId}`) errors.push(`${label}: arXiv URL and arxivId disagree.`);
 
