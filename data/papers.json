@@ -3699,5 +3699,38 @@
       "nature-communications-primary"
     ],
     "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "arxiv-2609-05727",
+    "arxivId": "2609.05727",
+    "title": "Newton Matching for Generative Modeling: A Unified Framework for Fine-Tuning and Sampling",
+    "authors": [
+      "Zeyang Li",
+      "Yunan Wang",
+      "Paolo Giaretta",
+      "Navid Azizan"
+    ],
+    "year": 2026,
+    "published": "2026-09-04",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.05727",
+    "category": "guidance",
+    "tags": [
+      "Newton Matching",
+      "reward fine-tuning 奖励微调",
+      "sampling 采样",
+      "Fisher–Rao geometry 信息几何",
+      "reverse KL",
+      "flow matching",
+      "Adjoint Matching",
+      "reinforcement learning"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "以 Fisher–Rao 几何统一扩散与流模型的奖励微调和未归一化密度采样，将模型更新解释为规范模型流形上的 Newton 迭代，并在给定假设下分析理想迭代的收敛性。适合与 Adjoint Matching 对照，理解不同回归目标的分布含义及近似是否保留目标分布。",
+    "sourceCollections": [
+      "arxiv-primary"
+    ],
+    "lastVerified": "2026-10-31"
   }
 ]
